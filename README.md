@@ -5,9 +5,8 @@
 Henry is a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. politics. For his Google Summer of Code project in collaboration with Red Hen Lab,
 
 
-<img src="https://github.com/favicon.ico" width="48">
+<img src="https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/blob/master/Henry_Smith_CS50.jpg" width="48">
 
-![alt text](https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/blob/master/Henry_Smith_CS50.jpg?raw=true)
 
 You can use the [editor on GitHub](https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
