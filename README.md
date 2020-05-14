@@ -2,10 +2,11 @@
 
 ### About:
 
+<img src="https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/blob/master/Henry_Smith_CS50.jpg" height= "250" width="48">
+
 Henry is a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. politics. For his Google Summer of Code project in collaboration with Red Hen Lab,
 
 
-<img src="https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/blob/master/Henry_Smith_CS50.jpg" width="48">
 
 
 You can use the [editor on GitHub](https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
