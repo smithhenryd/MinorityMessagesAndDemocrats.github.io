@@ -2,7 +2,7 @@
 
 ### About:
 
-<img align="right" src="https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/blob/master/Henry_Smith_CS50.jpg" height= "250" width="200" />
+<img align="right" src="Henry_Smith_CS50.jpg" height= "250" width="200">
 
 Henry is a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For his Google Summer of Code project in collaboration with Red Hen Lab, he will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles and [Sumit Vohra](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF46VQT8HsnZwAAAXIUesZQlLHEC_YJjPOrZoXZPgUeXgBJYK7eTaLs0b2ATrdG6kaP8ucfy_419uoPg6UMRNVnUkIadUS_qCdwAaUu2YoCv7EldRUVNnJg9KsJtgf73FXTUKc=&originalReferer=http://www.redhenlab.org/summer-of-code/red-hen-lab-gsoc-2020-projects&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fsumit-vohra-224484a0). 
 
