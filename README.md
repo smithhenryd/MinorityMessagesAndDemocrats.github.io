@@ -13,7 +13,8 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 - Email: henry.smith@yale.edu
 - Facebook: [Henry Smith](https://www.facebook.com/profile.php?id=100023679815464)
-- Github: [smithhenryd](https://github.com/smithhenryd) <br/>
+- Github: [smithhenryd](https://github.com/smithhenryd) 
+<br/>
 
 ### Blog:
 
