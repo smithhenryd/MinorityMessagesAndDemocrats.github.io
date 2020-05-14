@@ -4,16 +4,16 @@
 
 <img align="right" src="Henry_Smith_CS50.jpg" height= "250" width="200" />
 
-Henry is a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For his Google Summer of Code project in collaboration with Red Hen Lab, he will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles and [Sumit Vohra](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF46VQT8HsnZwAAAXIUesZQlLHEC_YJjPOrZoXZPgUeXgBJYK7eTaLs0b2ATrdG6kaP8ucfy_419uoPg6UMRNVnUkIadUS_qCdwAaUu2YoCv7EldRUVNnJg9KsJtgf73FXTUKc=&originalReferer=http://www.redhenlab.org/summer-of-code/red-hen-lab-gsoc-2020-projects&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fsumit-vohra-224484a0). The project will focus on understanding how Democratic politicians communicate with racial, sexual, and gender minority voters through social media visual imagery. By the generosity of Dr. Joo and his colleagues, images will be sourced through a dataset compiled from politician Facebook accounts during the 2018 midterm election cycle. 
+My name is Henry Smith, and I am a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For my Google Summer of Code project in collaboration with Red Hen Lab, I will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles and [Sumit Vohra](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF46VQT8HsnZwAAAXIUesZQlLHEC_YJjPOrZoXZPgUeXgBJYK7eTaLs0b2ATrdG6kaP8ucfy_419uoPg6UMRNVnUkIadUS_qCdwAaUu2YoCv7EldRUVNnJg9KsJtgf73FXTUKc=&originalReferer=http://www.redhenlab.org/summer-of-code/red-hen-lab-gsoc-2020-projects&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fsumit-vohra-224484a0). The project will focus on understanding how Democratic politicians communicate with racial, sexual, and gender minority voters through social media visual imagery. By the generosity of Dr. Joo and his colleagues, images will be sourced through a dataset compiled from politician Facebook accounts during the 2018 midterm election cycle. 
 
-The complete proposal can be found in the [Henry's Github repository for the project](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/Henry_SmithSummerResearchProposal.pdf).
+The complete proposal can be found in my [Github repository for the project](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/Henry_SmithSummerResearchProposal.pdf).
 
+#### Contact Information:
+I am always excited to receive feedback on my work, so feel free to contact me using any of the following platforms.
 
-
-
-You can use the [editor on GitHub](https://github.com/smithhenryd/MinorityMessagesAndDemocrats.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Email: henry.smith@yale.edu
+- Facebook: [Henry Smith](https://www.facebook.com/profile.php?id=100023679815464)
+- Github: [smithhenryd](https://github.com/smithhenryd)
 
 ### Markdown
 
