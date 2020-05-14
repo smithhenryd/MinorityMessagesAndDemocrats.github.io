@@ -9,7 +9,7 @@ My name is Henry Smith, and I am a rising junior at Yale College majoring in Sta
 The complete proposal can be found in my [Github repository for the project](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/Henry_SmithSummerResearchProposal.pdf).
 
 #### Contact Information:
-I am always excited to receive feedback on my work, so feel free to contact me using any of the following platforms.
+I am always excited to receive feedback on my work or meet new people, so feel free to reach out to me using any of the following platforms.
 
 - Email: henry.smith@yale.edu
 - Facebook: [Henry Smith](https://www.facebook.com/profile.php?id=100023679815464)
