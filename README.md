@@ -15,6 +15,16 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 - Facebook: [Henry Smith](https://www.facebook.com/profile.php?id=100023679815464)
 - Github: [smithhenryd](https://github.com/smithhenryd)
 
+
+### Blog:
+
+Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
+
+#### Community Bonding Period (05-??-20):
+To-do 
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
