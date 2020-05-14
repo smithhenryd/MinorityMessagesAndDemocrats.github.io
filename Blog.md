@@ -1,3 +1,3 @@
 title: Google Summer of Code 2020 Blog
-layout: slate
+layout: jekyll-theme-slate
 filename: Blog.md
