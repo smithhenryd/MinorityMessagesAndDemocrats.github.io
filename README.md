@@ -19,13 +19,13 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
-#### Community Bonding Period 05-18-20:
+#### I. Community Bonding Period 05-18-20:
 
 The Google Summer of Code has officially started, and it is off to a great start! In this blog post, I will summarize progress that I have already made as well as actionables that I see as achievable in the near future.
 
-- **Software setup** : With the help of the other students at Red Hen Lab, I have successfully connected to the Case HPC and have established a home directory on the Gallina server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best.
+- **Software setup**: With the help of the other students at Red Hen Lab, I have successfully connected to the Case HPC and have established a home directory on the Gallina server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best.
 
-- **2018 Midterm Images Dataset**
+- **2018 Midterm Images Dataset**:
 
 
 
