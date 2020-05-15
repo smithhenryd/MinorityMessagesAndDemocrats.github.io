@@ -23,7 +23,9 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 The Google Summer of Code has officially started, and it is off to a great start! In this blog post, I will summarize progress that I have already made as well as actionables that I see as achievable in the near future.
 
-- **Software setup** : With the help of the other students at Red Hen Lab, I have successfully connected to the Case HPC and established a home directory on the gallina server.  
+- **Software setup** : With the help of the other students at Red Hen Lab, I have successfully connected to the Case HPC and have established a home directory on the Gallina server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best.
+
+- **2018 Midterm Images Dataset**
 
 
 
