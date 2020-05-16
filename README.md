@@ -27,8 +27,12 @@ The Google Summer of Code has officially started, and it is off to a great start
 
 - **2018 Midterm Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by U.S. politicians during the 2018 election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
 
+
 <img src="Sample_imgs.jpg" />
+
 _Fig. 1: What does it mean for an political image to appeal to a minority group? Clearly the right image (Darren Soto, FL, U.S. House of Representatives) appeals to Hispanic voters much more so than the left (Bill Nelson, FL, Governor candidate), but how is this quantified?_
+
+
 
 ### Markdown
 
