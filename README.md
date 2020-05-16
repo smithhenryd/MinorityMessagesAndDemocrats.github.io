@@ -25,9 +25,10 @@ The Google Summer of Code has officially started, and it is off to a great start
 
 - **Software setup**: With the help of the other students, I have successfully connected to the Case Western Reserve University HPC and have established a home directory on Gallina, Red Hen Lab's server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best. A more complete guide to connecting to the Case HPC is included in blog entry I.
 
-- **2018 Midterm Images Dataset**: I first met with my mentor Dr. Jungseock Joo, 
+- **2018 Midterm Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by U.S. politicians during the 2018 election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
 
-
+<img src="Sample_imgs.jpg" />
+_Fig. 1: What does it mean for an political image to appeal to a minority group? Clearly the right image (Darren Soto, FL, U.S. House of Representatives) appeals to Hispanic voters much more so than the left (Bill Nelson, FL, Governor candidate), but how is this quantified?_
 
 ### Markdown
 
