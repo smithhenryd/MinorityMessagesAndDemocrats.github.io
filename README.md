@@ -25,7 +25,7 @@ The Google Summer of Code has officially started, and it is off to a great start
 
 - **Software setup**: With the help of the other students, I have successfully connected to the Case Western Reserve University HPC and have established a home directory on Gallina, Red Hen Lab's server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best. A more complete guide to connecting to the Case HPC is included in blog entry I.
 
-- **2018 Midterm Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by U.S. politicians during the 2018 election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
+- **2018 U.S. Midterm Elections Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by U.S. politicians during the 2018 election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
 
 
 <img src="Sample_imgs.jpg" />
@@ -48,3 +48,5 @@ Ultimately, the goal of this discussion is to determine **how to construct a set
     - [x] Personality dimensions of image (ex. patriotic, threatening)
 
 As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into building a prediction model.
+
+#### I. Connecting to CWRU HPC and Building a Singularity Container
