@@ -49,4 +49,4 @@ Ultimately, the goal of this discussion is to determine **how to construct a set
 
 As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into building a prediction model.
 
-#### I. Connecting to CWRU HPC and Building a Singularity Container
+#### I. Connecting to CWRU HPC and Singularity
