@@ -47,4 +47,4 @@ Ultimately, the goal of this discussion is to determine **how to construct a set
     - [x] Topic of image (ex. education, public health)
     - [x] Personality dimensions of image (ex. patriotic, threatening)
 
-As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of three questions outlined prior to jumping into building a prediction model.
+As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into building a prediction model.
