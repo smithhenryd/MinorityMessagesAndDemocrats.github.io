@@ -32,11 +32,19 @@ The Google Summer of Code has officially started, and it is off to a great start
 
 _Fig. 1: What does it mean for an political image to appeal to a minority group? Clearly the right image (Darren Soto, FL, U.S. House of Representatives) appeals to Hispanic voters much more so than the left (Bill Nelson, FL, Governor candidate), but how is this quantified?_
 
-The first challenge, showcased by the two sample images from the dataset included above, is determining how to measure an image's appeal to a given minority group. My goal is to observe and **annotate a random sample of 2,000 images from the dataset to gain a better answer to this question**. Potential explanations are included as follows:
-- [x] Race & ethnicity of individuals included
-  - Complication: In context of the political images, how do we distinguish between the race & ethnicity of the _politician_ versus potential _other individuals_ included in the images?
-- [x] Symbols included in images (ex. flags)
-- [x] Perhaps there are certain cultural elements that cannot be explained or captured so explicitly
-  - Complication: How do we account for these subleties in the set of variables measured for the polticial images?
+  - The first challenge, showcased by the two sample images from the dataset included above, is determining **how to measure an image's appeal to a given minority group**. My goal is to observe and annotate a random sample of 2,000 images from the dataset to gain a better answer to this question. Potential explanations are included as follows:
+    - [x] Race & ethnicity of individuals included
+     - How do we distinguish between the race & ethnicity of the _politician_ versus potential _other individuals_ included in the images?
+    - [x] Symbols included in images (ex. flags)
+    - [x] Perhaps there are certain cultural elements that cannot be explained or captured so explicitly
+     - How do we account for these subtleties in the set of variables measured for the polticial images?
 
-Ultimately, the goal of this discussion is to determine **how to construct a set of variables for each image in the dataset which measures its specific appeal to the afermentioned groups**.
+Ultimately, the goal of this discussion is to determine **how to construct a set of variables for each image in the dataset which measures its appeal to the afermentioned minority groups**.
+  
+  - Additionally, we would like to measure **covariates** that can later be included in a multivariate linear model. While quantifying the appeal of an image to a given minority group is interesting, determinining whether there are statistically significant differences in the content of images along covariates provides a more detailed analysis regarding _how_ politicians use these images to appeal to these voters. Many of these covariates may be measured using existing computer vision technology. Potential covariates include:
+    - [x] Race & ethnicity of politician
+    - [x] When image was posted (pre or post-primary election)
+    - [x] Topic of image (ex. education, public health)
+    - [x] Personality dimensions of image (ex. patriotic, threatening)
+
+As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of three questions outlined prior to jumping into building a prediction model.
