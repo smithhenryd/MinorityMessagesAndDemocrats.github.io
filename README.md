@@ -23,9 +23,9 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 The Google Summer of Code has officially started, and it is off to a great start! In this blog post, I will summarize progress that I have already made as well as actionables that I see as achievable in the near future.
 
-- **Software setup**: With the help of the other students, I have successfully connected to the Case Western Reserve University HPC and have established a home directory on Gallina, Red Hen Lab's server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best. A more complete guide to connecting to the Case HPC is included in blog entry I.
+- **Software setup**: With the help of the other students, I have successfully connected to the Case Western Reserve University HPC and have established a home directory in Gallina, Red Hen Lab's server. However, I am still in the process of creating a Singularity container in which I will run the code for my project, as is required by the collaborative. I have not had any prior experience with Singularity nor am I  a master of the terminal window, but I am trying my best. A more complete guide to connecting to the Case HPC is included in blog entry I.
 
-- **2018 U.S. Midterm Elections Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by U.S. politicians during the 2018 election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
+- **2018 U.S. Midterm Elections Images Dataset**: Unlike a majority of the other Red Hens participating in the GSoC, I will not be using the UCLA television news dataset but rather a novel dataset collected by Dr. Jungseock Joo and his colleagues consisting of Facebook images published by politicians during the 2018 U.S. election cycle. As outlined by my proposal, I will use this data to better understand how Democratic politicians communicate with racial, sexual, and gender minority consistuents. 
 
 
 <img src="Sample_imgs.jpg" />
@@ -33,9 +33,9 @@ The Google Summer of Code has officially started, and it is off to a great start
 _Fig. 1: What does it mean for an political image to appeal to a minority group? Clearly the right image (Darren Soto, FL, U.S. House of Representatives) appeals to Hispanic voters much more so than the left (Bill Nelson, FL, Governor candidate), but how is this quantified?_
 
   - The first challenge, showcased by the two sample images from the dataset included above, is determining **how to measure an image's appeal to a given minority group**. My goal is to observe and annotate a random sample of 2,000 images from the dataset to gain a better answer to this question. Potential explanations are included as follows:
-    - [x] Race & ethnicity of individuals included
+    - [x] Race & ethnicity of individuals 
      - How do we distinguish between the race & ethnicity of the _politician_ versus potential _other individuals_ included in the images?
-    - [x] Symbols included in images (ex. flags)
+    - [x] Symbols (ex. flags)
     - [x] Perhaps there are certain cultural elements that cannot be explained or captured so explicitly
      - How do we account for these subtleties in the set of variables measured for the polticial images?
 
@@ -47,6 +47,6 @@ Ultimately, the goal of this discussion is to determine **how to construct a set
     - [x] Topic of image (ex. education, public health)
     - [x] Personality dimensions of image (ex. patriotic, threatening)
 
-As you can see, there is a lot of complexity to consider when constructing this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into building a prediction model.
+As you can see, there is a lot of complexity to consider when building this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into constructing a prediction model.
 
 #### I. Connecting to CWRU HPC and Singularity
