@@ -32,6 +32,15 @@ The Google Summer of Code has officially started, and it is off to a great start
 
 _Fig. 1: What does it mean for an political image to appeal to a minority group? Clearly the right image (Darren Soto, FL, U.S. House of Representatives) appeals to Hispanic voters much more so than the left (Bill Nelson, FL, Governor candidate), but how is this quantified?_
 
+The first challenge, showcased by the two sample images from the dataset included above, is determining how to measure an image's appeal to a given minority group. My goal is to observe and **annotate a random sample of 2,000 images from the dataset to gain a better answer to this question**. Potential explanations are included as follows:
+- [x] Race & ethnicity of individuals included
+  - Complication: In context of the political images, how do we distinguish between the race & ethnicity of the _politician_ versus potential _other individuals_ included in the images?
+- [x] Symbols included in images (ex. flags)
+- [x] Perhaps there are certain cultural elements that cannot be explained or captured so explicitly
+  - Complication: How do we account for these subleties in the set of variables measured for the polticial images?
+
+Ultimately, the goal of this discussion is to determine **how to construct a set of variables for each image in the dataset which measures its specific appeal to the afermentioned groups**.
+
 
 
 ### Markdown
