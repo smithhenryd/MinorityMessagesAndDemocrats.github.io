@@ -50,3 +50,8 @@ Ultimately, the goal of this discussion is to determine **how to construct a set
 As you can see, there is a lot of complexity to consider when building this new collection of minority appeal variables and related covariates for the 2018 political images dataset. I will begin my GSoC project by critically examining each of these questions outlined prior to jumping into constructing a prediction model.
 
 #### I. Connecting to CWRU HPC and Singularity
+
+1. In order to connect to the Case Western Reserve Univeristy High Performance Computing (Case HPC), one must first have a Case account or an affiliate account. Information about eligibility and requesting an affiliate account can be found [here](https://case.edu/utech/help/knowledge-base/affiliate-network-id).
+2. Set up [two-factor authentification](https://webapps.case.edu/duo/webauth.py) through Case using Duo. The easiest authentification method is a push notification sent to your phone by downloading the Duo Mobile app.  
+3. Install the [Case FortiClient VPN](https://case.edu/utech/help/forticlient-vpn) (Virtual Private Network), which will allow you to connect to Case Western Reserve University network remotely. Once FortiClient has been installed on your computer, run the VPN; you will need to use Duo two-factor authentification first. 
+4. Once connected to the Case network, open the terminal and ssh into the HPC 
