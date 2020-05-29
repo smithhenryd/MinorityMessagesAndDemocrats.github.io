@@ -27,10 +27,12 @@ As it would be difficult to create a continuous scale on which to measure a poli
 
 So to gain a better understanding of the proportion of images to which each minority group-specific variable pertains (i.e.  images such that a given variable = 1), I annotate a random sample of 2,000 images from the Facebook images dataset. Moreover, two seperate analyses are performed: the first in which text-based images are excluded from annotation and the second in which these images are included. 
 
+
 | Variable            | Total Dem images annotated | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
 | --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
 | Text imgs excluded  | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
 | Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
+
 
 Of course, we are limited in terms of statistical analyses, as the two samples are by no means independent of one another (there are only 184 additional images in the 'text imgs included' set that are not also in the 'text imgs excluded'). However, the data seems to suggests that non-textual more so than textual images are used by Democratic politicians to appeal to minority voters, with the exception of the LGBTQ+ community. The visual appeal to LGBTQ+ voters is primarily symbol-based (rainbow pride flag/banner, Human Rights Campaign logo, etc.) as opposed to the physical presence of LGBTQ+ individuals, which may explain why the difference is present particularly among this group.
 
