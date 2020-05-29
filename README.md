@@ -32,6 +32,10 @@ So to gain a better understanding of the proportion of images to which each mino
 | Text imgs excluded  | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
 | Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
 
+Of course, we are limited in terms of statistical analyses, as the two samples are by no means independent of one another (there are only 184 additional images in the 'text imgs included' set that are not also in the 'text imgs excluded'). However, the data seems to suggests that non-textual more so than textual images are used by Democratic politicians to appeal to minority voters, with the exception of the LGBTQ+ community. The visual appeal to LGBTQ+ voters is primarily symbol-based (rainbow pride flag/banner, Human Rights Campaign logo, etc.) as opposed to the physical presence of LGBTQ+ individuals, which may explain why the difference is present particularly among this group.
+
+As the GSOC coding period comes to an official start, I will next work to formulate questions by which a larger subset of the images will be annotated. Because the proportion of images that intend to appeal to each of the four minority groups is relatively small (as we see from the above results), we may need to build a preliminary prediction model by which to pick out images thought to appeal to each of the four groups. This would allow us to have a larger positive annotation rate than if images were just randomly sampled from the Facebook images dataset. 
+
 #### II. Community Bonding Period 05-18-20:
 
 The Google Summer of Code has officially started, and it is off to a great start! In this blog post, I will summarize progress that I have already made as well as actionables that I see as achievable in the near future.
