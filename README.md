@@ -19,8 +19,18 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
-#### III. Progress on Project & Start of Official Coding Period 05-??-20:
+#### III. Progress on Project & Start of Official Coding Period 05-29-20:
 
+Prior to annotating the 2018 Facebook images dataset, we must first determine minority group-specific variables of interest. As cited in the project proposal, a 2017 report by the Pew Research Center estimated that Black voters constituted 19% of the Democratic party, Hispanic voters, 12%, and Asian voters, in combination with other racial and ethnic minority voters, 10% [1]. For the sake of our analysis, in order to obtain a sufficiently large sample of images pertaining to each group, we will measure the appeal of Democratic politicians to **Black, Hispanic, and Asian voters**. Additionally, as our research also seeks to examine political appeal to sexual and gender minority voters, we include a variable **'LGBTQ+\_appeal'**. An exit poll by NBC conducted during the 2018 U.S. midterm election estimated that LGBT voters consititued 6% of the electorate, and 82% of these voters supported the Democratic candidate [2]. Similarly, while LGBTQ+ could be separated into various sexual and gender minority classifications, each subset would likely only pertain to very few images.
+
+As it would be difficult to create a continuous scale on which to measure a politician's intended appeal to a given minority group that is consistent across annotators (what one annotator considers moderate appeal may be different from another), we use a nominal variable. The value = 1 is assigned to images in which the politician had the _intention of_ appealing to the respective minority group, and = 0 is assigned to those in which this intention is not present. 
+
+So to gain a better understanding of the proportion of images to which each minority group-specific variable pertains (i.e.  images such that a given variable = 1), I annotate a random sample of 2,000 images from the Facebook images dataset. Moreover, two seperate analyses are performed: the first in which text-based images are excluded from annotation and the second in which these images are included. 
+
+| Variable            | Total Dem images annotated | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
+| --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
+| Text imgs excluded  | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
+| Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
 
 #### II. Community Bonding Period 05-18-20:
 
