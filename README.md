@@ -19,6 +19,10 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### IV. Coding Period Week 1:
+
+In progress
+
 #### III. Preliminary Image Annotation 05-29-20:
 
 Prior to annotating the 2018 Facebook images dataset, we must first determine minority group-specific variables of interest. As cited in the project proposal, a 2017 report by the Pew Research Center estimated that Black voters constituted 19% of the Democratic party, Hispanic voters, 12%, and Asian voters, in combination with other racial and ethnic minority voters, 10% [2]. For the sake of our analysis, in order to obtain a sufficiently large sample of images pertaining to each group, we will measure the appeal of Democratic politicians to **Black, Hispanic, and Asian voters**. Additionally, as our research also seeks to examine political appeal to sexual and gender minority voters, we include a variable **'LGBTQ+\_appeal'**. An exit poll by NBC conducted during the 2018 U.S. midterm election estimated that LGBT voters consititued 6% of the electorate, and 82% of these voters supported the Democratic candidate [1]. Similarly, while LGBTQ+ could be separated into various sexual and gender minority classifications, each subset would likely only pertain to very few images.
