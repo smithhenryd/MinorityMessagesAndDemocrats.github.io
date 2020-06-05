@@ -36,9 +36,28 @@ A few relevant discussions to consider are as follows:
 
 - There are a number of political issues implictly linked to race, including states' rights, the criminal justice system, etc., that Mendelberg mentions in his work. Although McIllwain and Caliendo, 2001 offered that most racial appeals are candidate-based, we may seem some images that intend to appeal to minority voters through these issues.  
 
-Many of the articles were relevant 
+##### Image Preparation for Annotation:
+The next step is obtaining a representative sample of images from the 2018 Facebook dataset to be annotated. Upon meeting with Dr. Joo, we have determined the specifications for this sample as follows:
+ 
+- Images from Democratic candidates
+- Include text-based images
+- Include image captions
+- ~4,000 images to be annotated
 
-In progress
+I also include a preliminary draft of the schema used for image annotation:
+
+This image along with its caption were shared to the social media platform Facebook by an American politician during the 2018 United States election cycle. By doing so, do you believe that they, the politician, had the intention of appealing to (alternative wording: attracting the support of) [Black/Hispanic/Asian/LGBTQ+] voters? 
+
+
+Yes (= 1)
+
+No (= 0)
+
+
+Note: Be sure to clarify that LGBTQ+ means: lesbian, gay, bisexual, transgender, questioning, and other sexual and gender minority individuals.
+
+In preparing this sample, I will be working under the guidance of [Dr. Kunwoo Park](http://kunwpark.kr/), a postdoctoral researcher at the University of California, Los Angeles. 
+
 
 #### III. Preliminary Image Annotation 05-29-20:
 
