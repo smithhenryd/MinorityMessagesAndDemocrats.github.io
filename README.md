@@ -21,6 +21,20 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### IV. Coding Period Week 1:
 
+##### Research Overview: 
+I spent the first half of this week conducting [background research](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/background/Research%20Overview_%20Politician%20Appeal%20to%20Minority%20Candidates%20.pdf) related to how U.S. politicians have used racial appeals in the past and how these appeals differ by political party. This task required that I sift through my university's library resources, and I have compiled information from the most relevant articles and books in a document located in the project's Github repository. This summary is by no means comprehensive and is only related to the political side to the project, but it provides an important overview of race theory, a topic in which I have little prior knowledge. 
+
+A few relevant discussions to consider are as follows:
+
+- At first, one may think that minority candidates leverage connections within their respective racial and ethnic communities and thus display more visual appeals to these groups. McIllwain and Caliendo, 2011, however, suggests that, under certain conditions, the opposite may be true: minority candidates with predominantly white consituencies may use **counter-stereotype references**. The candidate, seeking to counter the racist stereotypes held by white voters, may distance themselves from their own racial or ethnic group. 
+
+- An analysis of political advertisements by McIllwain and Caliendo, 2011 suggested that racial appeals by minority candidates focus primarily on the candidates image as opposed to concrete policy. 
+
+- Mendelberg's 2001 work _The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality_ is an essential text in understanding racial appeals by U.S. politicians. The idea of a norm, a social construct guiding and constraining individual behavior, is especially relevant to our work. Despite the importance of this work, Mendelberg's 2001 analysis may not be indicative of today's political environment. He discusses the 
+
+
+Many of the articles were relevant 
+
 In progress
 
 #### III. Preliminary Image Annotation 05-29-20:
