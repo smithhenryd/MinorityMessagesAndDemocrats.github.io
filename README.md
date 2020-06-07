@@ -58,7 +58,9 @@ No (= 0)
 
 Note: Be sure to clarify that LGBTQ+ means: lesbian, gay, bisexual, transgender, questioning, and other sexual and gender minority individuals.
 
-In preparing this sample, I will be working under the guidance of Dr. Kunwoo Park, who has worked with Dr. Joo in the past and has expertise in image classification.
+In preparing this sample, I will be working under the guidance of Dr. Kunwoo Park, who has collaborated with Dr. Joo in the past and has expertise in image classification. Dr. Park will be helping to clean the raw dataset of all images so to include images shared only by Democratic candidates. Additionally, I will be writing up the complete coding scheme for manual annotation (a rough idea of which is included above). 
+
+It is important to mention that simply taking random samples from the prepared dataset of all Democratic images will _not_ be sufficient for collecting manual annotations. This is because, as illustrated by the results from the preliminary annotation, the proportion of positive annotations for each of the four minority variables is relatively small. And to train a prediction model that can be applied to a test set of the data, we would like to have hundreds, ideally near one thousand, positively annotated images for each of 'Black_appeal', 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal'. Therefore, we will use existing race and ethnicity recognition as well as symbol detection (ex. rainbow flag, Human Rights Campaign logo) models to pick out images that may have higher than average positive annotation rates for these respective variables when presented to annotators. The preparation of these images for annotation (creating scheme, cleaning data, and applying existing models) will be my primary focus for the upcoming week. 
 
 
 #### III. Preliminary Image Annotation 05-29-20:
