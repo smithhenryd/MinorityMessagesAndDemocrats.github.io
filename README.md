@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### V. Week 2:
 
-Through the generous assistance of Dr. Kunwoo Park, we were able to clean up the data, so to subset the entire 2018 Facebook images dataset to only include those images shared by Democratic politicians along with their corresponding captions. Dr. Park also collected a simple random sample of 3,264 of these images to use for our first annotation, which amounts to up to seven images per politician. 
+Through the generous assistance of Dr. Kunwoo Park, we were able to clean up the data, so to subset the entire 2018 Facebook images dataset to only include those images shared by Democratic politicians along with their corresponding captions. Dr. Park also collected a simple random sample of 3,264 of these images to use for our first annotation, which amounts to up to seven images per politician. Note that this is a simple random sample as opposed to a sample collected from a classifier as discussed in the previous week's post. Our intention is to collect these preliminary annotations and then train a classifier to select Facebook images that may be positively annotated with each of the four minority appeal variables at a greater rate.
 
 Additionally, we discussed the issue of potential bias induced by a candidate's race or ethnicity when they are physically present in a shared image. Perhaps annotators, not knowing which individual in the image is the politician, would falsely believe that a minority politician is appealing to the minority group to which they belong (ex. the presence of a Black politician would lead annotators to believe that the politician is appealing to Black voters). In order to mitigate this source of bias, I compiled a dataset consisting of images of each of the politicians included in the random sample. For each Facebook image and caption presented to the annotator, they will also be shown an image of the politician. As the annotator knows the politician's appearance, they should be able to pick out the politician's presence in the Facebook images and, accordingly, should not mistake this presence for minority appeal. 
 
@@ -31,13 +31,13 @@ In order to prepare for image annotation, I refined my original annotation schem
 
 - Include a question that asks the annotator whether the politician is included in the model; this will (1) be important to incorporate into the machine learning model and (2) allow the annotator to consciously consider a candidate's role in the image prior to making any annotations on the minority group appeal variables
 
-- Provide the annotator with a definition of 'appeal' as well as context for how 'appeal' pertains to politicians' attempts to gain the support of voters 
+- Provide the annotator with a definition of 'appeal' as well as context for how 'appeal' pertains to politicians' attempts to gain support among voters 
 
 - Break down each of the four minority group-specific appeal variables, 'Black_appeal', 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', into separate questions
 
 The finalized scheme (which will be used for annotation) can be found [here](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Images%20Annotation%20Scheme_Final.pdf).
 
-Moreover, I have created a [spreadsheet](https://docs.google.com/spreadsheets/d/12cUOqOxmk4Q0TC683jrqbtb5uCG4-cNBwrJTKgIh-NA/edit?usp=sharing) by which to record annotations, which can [also be viewed in Github as a csv file](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Facebook%20Image%20Annotation%20-%20Sheet1.csv). Hopefully, this image annotation will be finished by the end of the following week. As of the end of this week, Dr. Joo is working to recruit two UCLA students to annotate the sample and I am working to find a way to efficiently organize the image files for annotation. When these students have been selected, Dr. Park and I will meet with them to explain the annotation scheme as well as how the image files are organized. 
+Moreover, I have created a [spreadsheet](https://docs.google.com/spreadsheets/d/12cUOqOxmk4Q0TC683jrqbtb5uCG4-cNBwrJTKgIh-NA/edit?usp=sharing) by which to record annotations, which can [also be viewed in Github as a csv file](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Facebook%20Image%20Annotation%20-%20Sheet1.csv). Hopefully, this image annotation will be finished by the end of the following week. As of this weekend, Dr. Joo is working to recruit two UCLA students to annotate the sample and I am working to find a way to efficiently organize the image files for annotation. When these students have been selected, Dr. Park and I will meet with them to explain the annotation scheme as well as how the image files are organized. 
 
 #### IV. Coding Period Week 1:
 
