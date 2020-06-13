@@ -25,6 +25,9 @@ Through the generous assistance of Dr. Kunwoo Park, we were able to clean up the
 
 Additionally, we discussed the issue of potential bias induced by a candidate's race or ethnicity when they are physically present in a shared image. Perhaps annotators, not knowing which individual in the image is the politician, would falsely believe that a minority politician is appealing to the minority group to which they belong (ex. the presence of a Black politician would lead annotators to believe that the politician is appealing to Black voters). In order to mitigate this source of bias, I compiled a dataset consisting of images of each of the politicians included in the random sample. For each Facebook image and caption presented to the annotator, they will also be shown an image of the politician themself. As the annotator knows the politician's appearance, they should be able to pick out the politician's presence in the Facebook images and, accordingly, should not mistake this presence for minority appeal. 
 
+Another source of bias we discussed is the annotator's potential recognition of the candidate. If the annotator were to recognize a prominent politician, for instance, by either the image file names or by their appearance, would this affect their annotation of the four minority group-specific appeal varaibles. Upon asking the 
+
+
 In order to prepare for image annotation, I refined my original annotational scheme in the following ways:
 
 - Include a question that asks the annotator whether the politician is inlcuded in the model; this will (1) be important to incorporate into the machine learning model and (2) allow the annotator to consciously consider a candidate's role in the image prior to making any annotations on the minority group appeal variables
@@ -33,7 +36,7 @@ In order to prepare for image annotation, I refined my original annotational sch
 
 - Break down each of the four minority group-specific appeal variables, 'Black_appeal', 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', into separate questions
 
-The finalized annotation scheme can be found [here](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Images%20Annotation%20Scheme_Final.pdf).
+The finalized scheme (which will be used for annotation) can be found [here](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Images%20Annotation%20Scheme_Final.pdf).
 
 
 
