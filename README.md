@@ -39,6 +39,8 @@ The finalized scheme (which will be used for annotation) can be found [here](htt
 
 Moreover, I have created a [spreadsheet](https://docs.google.com/spreadsheets/d/12cUOqOxmk4Q0TC683jrqbtb5uCG4-cNBwrJTKgIh-NA/edit?usp=sharing) by which to record annotations, which can [also be viewed in Github as a csv file](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Facebook%20Image%20Annotation%20-%20Sheet1.csv). Hopefully, this image annotation will be finished by the end of the following week. As of this weekend, Dr. Joo is working to recruit two UCLA students to annotate the sample and I am working to find a way to efficiently organize the image files for annotation. When these students have been selected, Dr. Park and I will meet with them to explain the annotation scheme as well as how the image files are organized. 
 
+<script charset="UTF-8" src="https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/image_prep.py"></script>
+
 #### IV. Coding Period Week 1:
 
 ##### Research Overview: 
