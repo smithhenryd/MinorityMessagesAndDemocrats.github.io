@@ -39,7 +39,58 @@ The finalized scheme (which will be used for annotation) can be found [here](htt
 
 Moreover, I have created a [spreadsheet](https://docs.google.com/spreadsheets/d/12cUOqOxmk4Q0TC683jrqbtb5uCG4-cNBwrJTKgIh-NA/edit?usp=sharing) by which to record annotations, which can [also be viewed in Github as a csv file](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Facebook%20Image%20Annotation%20-%20Sheet1.csv). Hopefully, this image annotation will be finished by the end of the following week. As of this weekend, Dr. Joo is working to recruit two UCLA students to annotate the sample and I am working to find a way to efficiently organize the image files for annotation. When these students have been selected, Dr. Park and I will meet with them to explain the annotation scheme as well as how the image files are organized. 
 
-<script src="image_prep.py"></script>
+```ruby
+import pandas as pd
+from google.colab import drive
+import os
+import shutil
+
+# mount to Google Drive account 
+drive.mount('/content/drive', force_remount=True)
+os.chdir("/content/drive/My Drive/GSOC2020/Training Model")
+
+# read in metadata and keep the file name, caption, politician name, and office 
+img_files = pd.read_csv("annotation_sample_random_metadata.csv")
+img_files = img_files[['filename','caption', 'name', 'Election']]
+num_rows = img_files.shape[0]
+
+# make directory in which to store annotation folders
+os.mkdir("annotation_folders")
+
+for i in range(num_rows):
+  # create a new folder for image annotation
+  os.chdir("/content/drive/My Drive/GSOC2020/Training Model/annotation_folders")
+  folder_num = i + 1
+  os.mkdir(f"{folder_num}")
+  os.chdir(f"/content/drive/My Drive/GSOC2020/Training Model/annotation_folders/{folder_num}")
+  
+  # move Facebook image into this folder
+  img_Facebook = img_files.iloc[i]['filename']
+  shutil.move(f"/content/drive/My Drive/GSOC2020/Training Model/annotation_sample_random/{img_Facebook}", f"/content/drive/My Drive/GSOC2020/Training Model/annotation_folders/{folder_num}")
+  
+  # write Facebook caption as a txt file in this folder
+  caption_txt = open(f"{img_Facebook}.txt", mode="w")
+  caption = img_files.iloc[i]['caption']
+  caption_txt.write(f"{caption}")
+  caption_txt.close
+  
+  # move a copy of the corresponding polician image into this folder
+  if img_files.iloc[i]['Election'] == "House":
+    chamber = "houses"
+  elif img_files.iloc[i]['Election'] == "Governor":
+    chamber = "govornor"
+  elif img_files.iloc[i]['Election'] == "Senate":
+    chamber = "senates"
+  politician_name = img_files.iloc[i]['name'].rstrip()
+  try:
+    politician_img = f"facebook_dataset_{chamber}_{politician_name}.jpg"
+    shutil.copy(f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}",f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}*annotate")
+    shutil.move(f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}*annotate", f"/content/drive/My Drive/GSOC2020/Training Model/annotation_folders/{folder_num}")
+  except FileNotFoundError:
+    politician_img = f"facebook_dataset_{chamber}_{politician_name}.jpeg"
+    shutil.copy(f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}",f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}*annotate")
+    shutil.move(f"/content/drive/My Drive/GSOC2020/Training Model/politician/{politician_img}*annotate", f"/content/drive/My Drive/GSOC2020/Training Model/annotation_folders/{folder_num}")
+```
 
 #### IV. Coding Period Week 1:
 
