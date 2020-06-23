@@ -19,6 +19,19 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### VI. Week 3:
+
+##### Manual Annotations:
+
+The primary focus of my work this week was completing manual annotations of the simple random sample of 3,264 Facebook images. Annotation was completed according to the [scheme](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/imgs_data/Images%20Annotation%20Scheme_Final.pdf) finalized during week 2. Along with my annotations, the lab has two additional individuals who will be working to complete annotations of the sample for the following week. 
+
+##### Facial Recognition: 
+
+Dr. Joo's lab has previously written code using a residual neural network (resnet) to recognize the faces U.S. political candidates. In addition to recording whether a politician is/is not physically present in a given image during annotation, we would like to automate this process using the lab's existing facial recognition code. With the help of my mentor, Dr. Kunwoo Park, we ran this code on the sample of Facebook images and have recorded the results in a csv file. Upon completion of the manual annotation task, we will assess the accuracy of the facial recognition code by comparing it to the manual results. 
+
+*For the sake of confidentiality, the facial recognition code is not included*
+
+
 #### V. Week 2:
 
 Through the generous assistance of Dr. Kunwoo Park, we were able to clean up the data, so to subset the entire 2018 Facebook images dataset to only include those images shared by Democratic politicians along with their corresponding captions. Dr. Park also collected a simple random sample of 3,264 of these images to use for our first annotation, which amounts to up to seven images per politician. Note that this is a simple random sample as opposed to a sample collected using a classifier as discussed in the previous week's post. Our intention is to collect these preliminary annotations and then train a classifier to select Facebook images that may be positively annotated with each of the four minority appeal variables at a greater rate.
