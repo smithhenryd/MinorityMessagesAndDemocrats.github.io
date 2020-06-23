@@ -29,7 +29,7 @@ The primary focus of my work this week was completing manual annotations of the 
 
 Dr. Joo's lab has previously written code using a residual neural network (resnet) to recognize the faces U.S. political candidates. In addition to recording whether a politician is/is not physically present in a given image during annotation, we would like to automate this process using the lab's existing facial recognition code. With the help of my mentor, Dr. Kunwoo Park, we ran this code on the sample of Facebook images and have recorded the results in a csv file. Upon completion of the manual annotation task, we will assess the accuracy of the facial recognition code by comparing it to the manual results. 
 
-*for the sake of confidentiality, the facial recognition code is not included*
+*\*for the sake of confidentiality, the facial recognition code is not included*
 
 
 #### V. Week 2:
