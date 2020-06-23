@@ -31,6 +31,7 @@ Dr. Joo's lab has previously written code using a residual neural network (resne
 
 *\*for the sake of confidentiality, the facial recognition code is not included*
 
+Note that current progress on the project is dependent on the completion of the manual annotation task. We are hoping that all three annotations will be completed by the end of this coming week.
 
 #### V. Week 2:
 
