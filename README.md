@@ -81,6 +81,10 @@ Variable definitions:
 - 'is_nonwhite'/'is_Black'/'is_Hispanic': = 1 if Democratic politician is nonwhite/Black/Hispanic, = 0 if not
 - 'Black_hist'/'LGBTQ+\_hist':  = 1 if image was posted during Black History Month (Feb)/LGBTQ+ Pride Month (June), = 0 otherwise
 
+**Goals for Evaluation Period 2**:
+
+With the second period of work around the corner, the next step in the project is to train a model with the existing manual annotations so to automatically annotate the four appeal variables for the entire dataset. Although I do not have much experience with image classficiation, I will be working alongside Dr. Kunwoo Park, who has completed similar work with the lab. Subsequently, we will have a larger (non-uniform) random sample of images based upon the results of the classifier, deliberately selecting images that are _more likely_ to be annotated with the appeal variables. Using a domestic crowdsourcing service, such as Amazon Mechanical Turk, we will hopefully be able to annotate this larger sample and then train another model with greater accuracy. Ideally, we will have close to one thousand positively-annotated images for each of the four variables (see figures for the uniform random sample above) with which to train the model.
+
 #### VI. Week 3:
 
 ##### Manual Annotations:
