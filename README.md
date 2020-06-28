@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### VII. Week 4 (Final Week Prior to First Evaluation):
 
-As the first evaluation period approaches, I have worked to compile preliminary results from my annotation of the simple random sample. For the sake of confidentiality of the lab's Facebook images dataset (including metdata and annotation), no code is posted. Nonetheless, key findings are summarized as follows:
+As the first evaluation period approaches, I have worked to compile preliminary results from my annotation of the simple random sample. For the sake of confidentiality of the lab's Facebook images dataset (including metadata and annotations), no code is posted. Nonetheless, key findings are summarized as follows:
 
 **Facial recognition assesment**:
 
