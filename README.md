@@ -23,7 +23,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 As the first evaluation period approaches, I have worked to compile preliminary results from my annotation of the simple random sample. For the sake of confidentiality of the lab's Facebook images dataset (including metadata and annotations), no code is posted. Nonetheless, key findings are summarized as follows:
 
-**Facial recognition assesment**:
+**Facial recognition assessment**:
 
 In order to assess the accuracy of the lab's resnet-based facial recognition code, I first compare the results of whether a politician was recognized in each image via manual annotation to the outcomes when the code was run on the sample by Dr. Park. Whereas manual annotation marked 47.61% of images in the sample as picturing the Democratic politician, the facial recognition code did so for only 25.30% of images. However, despite this discrepancy, manual annotation and the facial recognition agreed on 75.85% of classifications (present/not present). A majority of disagreements between the two methods were false-negatives by the face detection (96.39%), while only a small percentage were false-positives (3.61%). Upon observing these images, it is clear that a majority of the false-positives were due to human error in manual annotation (marking the politician as 'not present' when they were, in fact, present in the image). Nearly all of the false-negative images in which the code failed to detect the politician's face fall into one of the following cases:
 
@@ -32,7 +32,7 @@ In order to assess the accuracy of the lab's resnet-based facial recognition cod
 - Politician in background of image
 - Depiction of the politician's face is too small
 
-**Appeal variables assesment**:
+**Appeal variables assessment**:
 
 **i. Descriptive Statistics and Image Observations**:
 
