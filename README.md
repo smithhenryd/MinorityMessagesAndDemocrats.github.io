@@ -32,7 +32,7 @@ In order to assess the accuracy of the lab's resnet-based facial recognition cod
 - Politician in background of image
 - Depiction of the politician's face is too small
 
-**Appeal variables assessment**:
+**Appeal variables assesment**:
 
 **i. Descriptive Statistics and Image Observations**:
 
