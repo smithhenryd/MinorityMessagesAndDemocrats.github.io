@@ -56,10 +56,18 @@ In addition to understanding the content of appeal-related images, it is importa
 
 The following table summarizes the statistical significance of Logistic regression coefficients (cell values). Column values represent response variables and rows represent predictors. The reference level is = 0 (i.e. no 'Black_appeal'/'Hispanic_appeal'/'Asian_appeal'/ 'LGBTQ+\_appeal'), and the scale of the coefficients is = 1.
 
-|                     |        'any_appeal'+       | 'Black_appeal'+|  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
-| --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
-|                     | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
-| Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
+|                     |        'any_appeal'+       | 'Black_appeal'+| 'Hispanic_appeal'+| 'LGBTQ+_appeal'|
+| --------------------| ---------------------------| ---------------| ------------------| ---------------| 
+|   constant          |      -3.83 ***             |   -4.17 ***    | 9.3713%        | 2.8470%           | 2.2539%        | 
+|   'in_img'          |       0.04                 |   -0.14        | 9.3713%        | 2.8470%           | 2.2539%        | 
+|   'prop_nonwhite'   |       2.71 ***             |                | 9.3713%        | 2.8470%           | 2.2539%        | 
+|   'is_nonwhite'     |       0.15                 |                | 2.8238%           | 2.0448%        | 
+|   'prop_Black'      |                            |    3.49 ***    | 2.8238%           | 2.0448%        | 
+|   'is_Black'        |                            |    0.86 ***    | 2.8238%           | 2.0448%        | 
+|   'Black_hist'      |                            |    1.23 ***    | 2.8238%           | 2.0448%        | 
+|   'prop_Hispanic'   |                            |                | 2.8238%           | 2.0448%        | 
+|   'is_Hispanic'     |                            |                | 2.8238%           | 2.0448%        | 
+|   'LGBTQ+_hist'     |                            |                | 2.8238%           | 2.0448%        | 
 
 \+ only includes Democratic House candidates
 
