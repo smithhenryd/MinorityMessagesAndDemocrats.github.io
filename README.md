@@ -4,7 +4,7 @@
 
 <img align="right" src="Henry_Smith_CS50.jpg" height= "250" width="200" />
 
-My name is Henry Smith, and I am a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For my Google Summer of Code project in collaboration with Red Hen Lab, I will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles Deparment of Communication, [Dr. Kunwoo Park](http://kunwpark.kr/), a postdoctoral researcher at the University of California, Los Angeles Deparment of Communication, and [Sumit Vohra](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF46VQT8HsnZwAAAXIUesZQlLHEC_YJjPOrZoXZPgUeXgBJYK7eTaLs0b2ATrdG6kaP8ucfy_419uoPg6UMRNVnUkIadUS_qCdwAaUu2YoCv7EldRUVNnJg9KsJtgf73FXTUKc=&originalReferer=http://www.redhenlab.org/summer-of-code/red-hen-lab-gsoc-2020-projects&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fsumit-vohra-224484a0). The project will focus on understanding how Democratic politicians communicate with racial, sexual, and gender minority voters through social media visual imagery. By the generosity of Dr. Joo and his colleagues, images will be sourced through a dataset compiled from politician Facebook accounts during the 2018 U.S. midterm election cycle. 
+My name is Henry Smith, and I am a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For my Google Summer of Code project in collaboration with Red Hen Lab, I will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles Deparment of Communication and [Dr. Kunwoo Park](http://kunwpark.kr/), a postdoctoral researcher at the University of California, Los Angeles Deparment of Communication. The project will focus on understanding how Democratic politicians communicate with racial, sexual, and gender minority voters through social media visual imagery. By the generosity of Dr. Joo and his colleagues, images will be sourced through a dataset compiled from politician Facebook accounts during the 2018 U.S. midterm election cycle. 
 
 The complete proposal can be found in my [Github repository for the project](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-).
 
@@ -18,6 +18,29 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 ### Blog:
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
+
+#### VII. Week 4 (Final Week Prior to First Evaluation):
+
+As the first evaluation period approaches, I have worked to compile preliminary results from my annotation of the simple random sample. For the sake of confidentiality of the lab's Facebook images dataset (including metdata and annotation), no code is posted. Nonetheless, key findings are summarized as follows:
+
+**Facial recognition assesment**:
+
+In order to assess the accuracy of the lab's resnet-based facial recognition code, I first compare the results of whether a politician was recognized in each image via manual annotation to the outcomes when the code was run on the sample by Dr. Park. Whereas manual annotation marked 47.61% of images in the sample as picturing the Democratic politician, the facial recognition code did so for only 25.30% of images. However, despite this discrepancy, manual annotation and the facial recognition agreed on 75.85% of classifications (present/not present). A majority of disagreements between the two methods were false-negatives by the face detection (96.39%), while only a small percentage were false-positives (3.61%). Upon observing these images, it is clear that a majority of the false-positives were due to human error in manual annotation (marking the politician as 'not present' when they were, in fact, present in the image). A number of  in the false-negative images are as follows
+
+- Side profile of face
+- Face is obscured (ex. only back/top of head visible)
+- Politician in background of image (as opposed to foreground)
+- Depiction of the politician's face is too small
+
+
+
+
+
+|                     |    **Response Variable**   | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
+| --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
+|  **Predictor**      | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
+| Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
+
 
 #### VI. Week 3:
 
