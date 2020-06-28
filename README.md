@@ -32,8 +32,23 @@ In order to assess the accuracy of the lab's resnet-based facial recognition cod
 - Politician in background of image
 - Depiction of the politician's face is too small
 
+**Appeal variables assessment**:
 
+**i. Descriptive Statistics and Image Observations**:
 
+Among the 3,264 Facebook images included in the sample, 125 were annotated with 'Black_appeal' (3.84%), 65 with 'Hispanic_appeal' (2.0%),  26 with 'Asian_appeal' (0.8%), and 45 with 'LGBTQ+\_appeal' (1.38%). Ultimately, this project seeks to better understand _how_ Democratic politicians use images on social media, particularly Facebook, to appeal to racial, ethnic, sexual, and gender minority voting groups. Accordingly, more important than classifying which of images appeal to the measured groups is understanding common themes or categories among appeal images. By observing random samples of n = 20 images that were annotated with each of the four minority group appeal-related variables, potential categories of appeal are as follows:
+
+1.   **Endorsements**: Many have discussed how the American public receives information and forms political opinions. The two-step flow of communication proposes that _opinion leaders_, a minority that remains vigilant of the actions of political actors, inform the opinions of the majority (Lazarsfeld _et. al_, 1944). Under this theory, politicians share endorsements as signals to subsets of their constituencies (in this case, racial/ethnic, sexual, and gender minority groups) in order to prime their opinion of the politician in a favorable manner.
+
+2.   **Inclusion of minority group leaders**: Similar to the discussion of endorsements, many politicians share images of leaders or popular figures from minority groups so to present a favorable image of themselves in the eyes of these groups (Martin Luther King Jr., Frederick Douglass, Adam Rippon, world leaders).
+
+3.  **Policy**: Some political issues are historically tied to certain minority groups (ex. criminal justice and welfare with Black community, immigration with Hispanic community, HIV/AIDs epidemic with LGBTQ+ community) (Mendelberg, 2001). Therefore, appeals to minority groups though these issues is oftentimes stated implicitly.  
+
+4. **Inclusion of minority individuals** (ex. church congregations, other religious gatherings, historically-Black sororities)
+
+5. **Inclusion of symbols related to minority groups/social movements** (ex. flags, clothing, cultural items)
+
+**ii. Regression**:
 
 
 |                     |    **Response Variable**   | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
@@ -57,7 +72,6 @@ Dr. Joo's lab has previously written code using a residual neural network (resne
 Note that current progress on the project is dependent on the completion of the manual annotation task. We are hoping that all three annotations will be completed by the end of this coming week.
 
 #### V. Week 2:
-
 Through the generous assistance of Dr. Kunwoo Park, we were able to clean up the data, so to subset the entire 2018 Facebook images dataset to only include those images shared by Democratic politicians along with their corresponding captions. Dr. Park also collected a simple random sample of 3,264 of these images to use for our first annotation, which amounts to up to seven images per politician. Note that this is a simple random sample as opposed to a sample collected using a classifier as discussed in the previous week's post. Our intention is to collect these preliminary annotations and then train a classifier to select Facebook images that may be positively annotated with each of the four minority appeal variables at a greater rate.
 
 Additionally, we discussed the issue of potential bias induced by a candidate's race or ethnicity when they are physically present in a shared image. Perhaps annotators, not knowing which individual in the image is the politician, would falsely believe that a minority politician is appealing to the minority group to which they belong (ex. the presence of a Black politician would lead annotators to believe that the politician is appealing to Black voters). In order to mitigate this source of bias, I compiled a dataset consisting of images of each of the politicians included in the random sample. For each Facebook image and caption presented to the annotator, they will also be shown an image of the politician. As the annotator knows the politician's appearance, they should be able to pick out the politician's presence in the Facebook images and, accordingly, should not mistake this presence for minority appeal. 
