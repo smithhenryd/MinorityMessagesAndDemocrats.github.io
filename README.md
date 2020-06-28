@@ -50,6 +50,7 @@ Among the 3,264 Facebook images included in the sample, 125 were annotated with 
 
 **ii. Regression**:
 
+In addition to understanding the content of appeal-related images, it is important to consider variables that may/may not not contribute to a politician's decision to post an image appealing to a certain group. In our analysis, we consider three potential variable groups: (1) diversity of Congressional district, (2) race/ethnicity of candidate, and (3) timing of post. Because the variables measuring Congressional district diversity only relate to House candidates, we only consider these Democratic candidates in our analysis with these covariates.  
 
 |                     |    **Response Variable**   | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
 | --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
