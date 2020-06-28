@@ -48,15 +48,26 @@ Among the 3,264 Facebook images included in the sample, 125 were annotated with 
 
 5. **Inclusion of symbols related to minority groups/social movements** (ex. flags, clothing, cultural items)
 
-**ii. Regression**:
+**ii. Logistic Regression**:
 
-In addition to understanding the content of appeal-related images, it is important to consider variables that may/may not not contribute to a politician's decision to post an image appealing to a certain group. In our analysis, we consider three potential variable groups: (1) diversity of Congressional district, (2) race/ethnicity of candidate, and (3) timing of post. Because the variables measuring Congressional district diversity only relate to House candidates, we only consider these Democratic candidates in our analysis with these covariates.  
+In addition to understanding the content of appeal-related images, it is important to consider variables that may/may not not contribute to a politician's decision to post an image appealing to a certain group. In our analysis, we consider three potential variable groups: (1) diversity of Congressional district, (2) race/ethnicity of candidate, and (3) timing of post. Because the variables measuring Congressional district diversity only relate to House candidates, we only consider these Democratic candidates in our analysis with these covariates. Moreover, given the response variable, appeal to a given minority group, is discrete, a Logistic regression model with an intercept term is used. The logistic model is justified as follows, with 'Black_appeal' as the response variable and 'prop_Black', the proportion of Black individuals in a candidate's Congressional district, as the predictor:
 
-|                     |    **Response Variable**   | 'black_appeal' |  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
+<img src="regression_theory.jpg" />
+
+The following table summarizes the statistical significance of Logistic regression coefficients (cell values). Column values represent response variables and rows represent predictors. The reference level is = 0 (i.e. no 'Black_appeal'/'Hispanic_appeal'/'Asian_appeal'/ 'LGBTQ+\_appeal'), and the scale of the coefficients is = 1.
+
+|                     |        'any_appeal'+       | 'Black_appeal'+|  'hispanic_appeal'| 'asian_appeal'| 'LGBTQ+\_appeal' |
 | --------------------| ---------------------------| ---------------| ------------------| --------------| -----------------|
-|  **Predictor**      | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
+|                     | 843                        | 9.3713%        | 2.8470%           | 2.2539%       | 0.9490%          |
 | Text imgs included  | 1027                       | 7.9844%        | 2.8238%           | 2.0448%       | 1.1685%          |
 
+\+ only includes Democratic House candidates
+
+*** one-sided z-test (> 0) statistically significant at alpha = .001 level (see justification for test above)
+
+Variable definitions:
+
+-
 
 #### VI. Week 3:
 
