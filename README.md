@@ -25,11 +25,11 @@ As the first evaluation period approaches, I have worked to compile preliminary 
 
 **Facial recognition assesment**:
 
-In order to assess the accuracy of the lab's resnet-based facial recognition code, I first compare the results of whether a politician was recognized in each image via manual annotation to the outcomes when the code was run on the sample by Dr. Park. Whereas manual annotation marked 47.61% of images in the sample as picturing the Democratic politician, the facial recognition code did so for only 25.30% of images. However, despite this discrepancy, manual annotation and the facial recognition agreed on 75.85% of classifications (present/not present). A majority of disagreements between the two methods were false-negatives by the face detection (96.39%), while only a small percentage were false-positives (3.61%). Upon observing these images, it is clear that a majority of the false-positives were due to human error in manual annotation (marking the politician as 'not present' when they were, in fact, present in the image). A number of  in the false-negative images are as follows
+In order to assess the accuracy of the lab's resnet-based facial recognition code, I first compare the results of whether a politician was recognized in each image via manual annotation to the outcomes when the code was run on the sample by Dr. Park. Whereas manual annotation marked 47.61% of images in the sample as picturing the Democratic politician, the facial recognition code did so for only 25.30% of images. However, despite this discrepancy, manual annotation and the facial recognition agreed on 75.85% of classifications (present/not present). A majority of disagreements between the two methods were false-negatives by the face detection (96.39%), while only a small percentage were false-positives (3.61%). Upon observing these images, it is clear that a majority of the false-positives were due to human error in manual annotation (marking the politician as 'not present' when they were, in fact, present in the image). Nearly all of the false-negative images in which the code fails to detect the politician's face fall into one of the following cases:
 
 - Side profile of face
 - Face is obscured (ex. only back/top of head visible)
-- Politician in background of image (as opposed to foreground)
+- Politician in background of image
 - Depiction of the politician's face is too small
 
 
