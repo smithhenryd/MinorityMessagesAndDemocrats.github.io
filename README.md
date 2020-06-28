@@ -58,16 +58,16 @@ The following table summarizes the statistical significance of Logistic regressi
 
 |                     |        'any_appeal'+       | 'Black_appeal'+| 'Hispanic_appeal'+| 'LGBTQ+_appeal'|
 | --------------------| ---------------------------| ---------------| ------------------| ---------------| 
-|   constant          |      -3.83 ***             |   -4.17 ***    | 9.3713%        | 2.8470%           | 2.2539%        | 
-|   'in_img'          |       0.04                 |   -0.14        | 9.3713%        | 2.8470%           | 2.2539%        | 
-|   'prop_nonwhite'   |       2.71 ***             |                | 9.3713%        | 2.8470%           | 2.2539%        | 
-|   'is_nonwhite'     |       0.15                 |                | 2.8238%           | 2.0448%        | 
-|   'prop_Black'      |                            |    3.49 ***    | 2.8238%           | 2.0448%        | 
-|   'is_Black'        |                            |    0.86 ***    | 2.8238%           | 2.0448%        | 
-|   'Black_hist'      |                            |    1.23 ***    | 2.8238%           | 2.0448%        | 
-|   'prop_Hispanic'   |                            |                | 2.8238%           | 2.0448%        | 
-|   'is_Hispanic'     |                            |                | 2.8238%           | 2.0448%        | 
-|   'LGBTQ+_hist'     |                            |                | 2.8238%           | 2.0448%        | 
+|   constant          |      -3.83 ***             |   -4.17 ***    | -4.68 ***         |  -4.65 ***     | 
+|   'in_img'          |       0.04                 |   -0.14        | -0.14             |                | 
+|   'prop_nonwhite'   |       2.71 ***             |                |                   |                | 
+|   'is_nonwhite'     |       0.15                 |                |                   |                | 
+|   'prop_Black'      |                            |    3.49 ***    |                   |                | 
+|   'is_Black'        |                            |    0.86 ***    |                   |                | 
+|   'Black_hist'      |                            |    1.23 ***    |                   |                | 
+|   'prop_Hispanic'   |                            |                | 3.15 ***          |                | 
+|   'is_Hispanic'     |                            |                | 0.29              |                | 
+|   'LGBTQ+_hist'     |                            |                |                   |   1.83 ***     | 
 
 \+ only includes Democratic House candidates
 
