@@ -58,7 +58,7 @@ The following table summarizes the statistical significance of Logistic regressi
 
 |                     |        'any_appeal'+       | 'Black_appeal'+| 'Hispanic_appeal'+| 'LGBTQ+_appeal'|
 | --------------------| ---------------------------| ---------------| ------------------| ---------------| 
-|   constant          |      -3.83 ***             |   -4.17 ***    | -4.68 ***         |  -4.65 ***     | 
+|   constant          |      -3.83 **              |   -4.17 **     | -4.68 **          |  -4.65 **      | 
 |   'in_img'          |       0.04                 |   -0.14        | -0.14             |                | 
 |   'prop_nonwhite'   |       2.71 ***             |                |                   |                | 
 |   'is_nonwhite'     |       0.15                 |                |                   |                | 
@@ -70,6 +70,8 @@ The following table summarizes the statistical significance of Logistic regressi
 |   'LGBTQ+_hist'     |                            |                |                   |   1.83 ***     | 
 
 \+ only includes Democratic House candidates
+
+** one-sided z-test (< 0) statistically significant at alpha = .001 level (see justification for test above)
 
 *** one-sided z-test (> 0) statistically significant at alpha = .001 level (see justification for test above)
 
