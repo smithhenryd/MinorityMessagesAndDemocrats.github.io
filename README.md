@@ -81,7 +81,7 @@ Variable definitions:
 - 'is_nonwhite'/'is_Black'/'is_Hispanic': = 1 if Democratic politician is nonwhite/Black/Hispanic, = 0 if not
 - 'Black_hist'/'LGBTQ+\_hist':  = 1 if image was posted during Black History Month (Feb)/LGBTQ+ Pride Month (June), = 0 otherwise
 
-**Note**: Variables 'post_primary' (= 1 if image was posted after the Democratic politician's primary, = 0 if posted before) and 'days_until_general' were not significant in single-predictor models; therefore, they were excluded from the models with multiple predictors.
+**Note**: Coefficients on variables 'post_primary' (= 1 if image was posted after the Democratic politician's primary, = 0 if posted before) and 'days_until_general' were not statistically significant in single-predictor models; therefore, they were excluded from the models with multiple predictors.
 
 **Goals for Evaluation Period 2**:
 
