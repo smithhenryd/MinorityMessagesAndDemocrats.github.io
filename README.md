@@ -75,7 +75,11 @@ The following table summarizes the statistical significance of Logistic regressi
 
 Variable definitions:
 
--
+- 'any_appeal': = 1 if image appeals to _at least one_ of the measured racial/ethnic, sexual, or gender minority groups, = 0 if not
+- 'in_img': = 1 if Democratic politician is present in image, = 0 if not (manual annotation)
+- 'prop_nonwhite'/'prop_Black'/'prop_Hispanic': proportion of population that is nonwhite/Black/Hispanic in Democratic politician's Congressional district
+- 'is_nonwhite'/'is_Black'/'is_Hispanic': = 1 if Democratic politician is nonwhite/Black/Hispanic, = 0 if not
+- 'Black_hist'/'LGBTQ+\_hist':  = 1 if image was posted during Black History Month (Feb)/LGBTQ+ Pride Month (June), = 0 otherwise
 
 #### VI. Week 3:
 
