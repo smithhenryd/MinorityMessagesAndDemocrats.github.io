@@ -180,7 +180,7 @@ for i in range(num_rows):
 #### IV. Coding Period Week 1:
 
 ##### Research Overview: 
-I spent the first half of this week conducting [background research](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/background/Research%20Overview_%20Politician%20Appeal%20to%20Minority%20Candidates_updated.pdf) related to how U.S. politicians have used racial appeals in the past and how these appeals differ by political party. This task required that I sift through my university's library resources, and I have compiled information from the most relevant articles and books in a document located in the project's Github repository. This summary is by no means comprehensive and is only related to the political side to the project, but it provides an important overview of race theory, a topic in which I have little prior knowledge. 
+I spent the first half of this week conducting [background research](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-/blob/master/background/Research_Index.pdf) related to how U.S. politicians have used racial appeals in the past and how these appeals differ by political party. This task required that I sift through my university's library resources, and I have compiled information from the most relevant articles and books in a document located in the project's Github repository. This summary is by no means comprehensive and is only related to the political side to the project, but it provides an important overview of race theory, a topic in which I have little prior knowledge. 
 
 A few relevant discussions to consider are as follows:
 
