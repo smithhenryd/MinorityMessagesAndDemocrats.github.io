@@ -27,6 +27,8 @@ This week, Dr. Park has kindly offered to implement a convolutional neural netwo
 
 1. **Collaborating to improve politician facial recognition rate**:
 
+
+
 2. **Elaboration of sample annotation results**:
 
 In order to better understand future directions of the project and potential results when a network trained on annotations is applied to the entire Facebook images dataset, I elaborate on annotation results from the existing sample:
@@ -57,13 +59,18 @@ The plot on the left summarizes the frequency of sample Facebook images marked w
 
 ii.) Election outcome analysis:
 
+
+In order to assess whether a Democratic politician's use of minority group-related appeals is a statistically significant _positive_ predictor of election outcome, I construct two Logistic regression models, one using 'any_appeals' (whether a politician's image appealed to any of the measured groups) and the other 'Black_appeal' to predict 'outcomes_int' (1 = Democratic politician wins, 0 = loses). The sample annotations do suggest that Democratic politicians who make use of racial, ethnic, sexual, and gender appeals as well as those who make appeals specifically to Black constituents through Facebook images are more electorally successful. 
+
 |                     |        'outcomes_int'      |   'outcomes_int'    |
 | --------------------| ---------------------------|---------------------|
 |   constant          |      .034                  |         .057        |
 |   'any_appeal'      |      .617 ***              |                     |
-|   'Black_appeal'    |                            |         .589 ***    |
+|   'Black_appeal'    |                            |         .589 **     |
 
-*** one-sided z-test (> 0) statistically significant at alpha = .01 level
+** one-sided z-test (> 0) statistically significant at alpha = .01 level
+
+*** one-sided z-test (> 0) statistically significant at alpha = .001 level
 
 #### VII. Week 4 (Final Week Prior to First Evaluation):
 
