@@ -19,6 +19,18 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
+
+- [x] With much enthusaism, I passed my first coding evaluation for the Google Summer of Code. I am appreciative of the support I have received from Dr. Joo and Dr. Park while working on the project, and I look forward to continuing my work. Goals for the second coding period can be found in the 'Week 4' blog post.
+
+This week, Dr. Park has kindly offered to implement a convolutional neural network (CNN) for images to detect the four minority group-related appeal variables using the exisiting annotations we have from the random sample. He will also implement a separate model using the text captions corresponding to each of the Facebook images. Meanwhile, I have been working on two primary tasks that I outline as follows:
+
+1. **Collaborating to improve politician facial recognition rate**:
+
+2. **Elaboration of sample annotation results**:
+
+
+
 #### VII. Week 4 (Final Week Prior to First Evaluation):
 
 As the first evaluation period approaches, I have worked to compile preliminary results from my annotation of the simple random sample. For the sake of confidentiality of the lab's Facebook images dataset (including metadata and annotations), no code is posted. Nonetheless, key findings are summarized as follows:
