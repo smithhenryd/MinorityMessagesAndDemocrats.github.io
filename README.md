@@ -29,6 +29,14 @@ This week, Dr. Park has kindly offered to implement a convolutional neural netwo
 
 2. **Elaboration of sample annotation results**:
 
+In order to better understand future directions of the project and potential results when a network trained on annotations is applied to the entire Facebook images dataset, I elaborate on annotation results from the existing sample:
+
+i.) Temporal analysis:
+
+
+ii.) Election outcome analysis:
+
+
 
 
 #### VII. Week 4 (Final Week Prior to First Evaluation):
