@@ -27,7 +27,7 @@ This week, Dr. Park has kindly offered to implement a convolutional neural netwo
 
 1. **Collaborating to improve politician facial recognition rate**:
 
-
+As reported in the 'Week 4' post, the manual sample annotation detected the 'main politician' (he/she/they who shared the image) in 47.61% of images, while the automatic annotation via the facial recognition code did so for only 25.30%. In collaboration with a fellow researcher in Dr. Joo's lab, we were able to run a slightly modified script on the sample, which detected the main politician with only marginally greater accuracy (26.85%). To address the concern of underestimating the proportion of images in which the facial recognition code detects the main polician, Dr. Joo suggested using a cluster-based method by which to detect politicians' faces. Unfortunately, this code only returns the number rather than the names of politicians recognized in a given image. Therefore, as I observe upon running the clustering function on the sample images, the proportion of images in which there are > 0 politicians detected (59.00%) is much greater than the annotated proportion of images in which the main politician is present. This is because Democratic politicians oftentimes share images containing other politicians (especially prominent party leaders), whether in endorsement messages, joint campaign events, etc. 
 
 2. **Elaboration of sample annotation results**:
 
