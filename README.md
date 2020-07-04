@@ -33,9 +33,29 @@ In order to better understand future directions of the project and potential res
 
 i.) Temporal analysis:
 
+The following plot summarizes the frequency of sample Facebook images marked with 'Black_appeal' by month: 
+
+*\*Note that images included in the dataset are those posted by the Democratic politicians up until election day (Nov. 6)*
+
+<img src="Black_appeal_time.jpg" height= "250" width="450" />
+
+- The most immediate observation is the peak of Black appeals in February, which is also nationally designated as Black History Month; in the Week 4 post, I concluded that whether or not a Facebook image was posted during Black History Month, 'Black_hist', is a statistically significant positive predictor of 'Black_appeal' at the alpha = .001 level. 
+
+- Even considering the presence of Black History Month, there nonetheless seem to be more 'Black_appeal' images posted pre- versus post-primary. Although the coefficient on 'post_primary' was not significant in the Logistic regression model predicting 'any_appeal', **it is, in fact, significant (coefficient = -.404) at the alpha = .05 level (one-sided test against < 0 alternative) in the multiple Logistic regression model predicting 'Black_appeal'**. 
+
+- The potential for multicollinearity, particularly between 'Black_hist' and 'post_primary', was evaluated using the correlation and [variance inflation factor (VIF)](https://en.wikipedia.org/wiki/Variance_inflation_factor) between predictors included in the model. Together, the low correlations (the largest correlation was = .507 between 'prop_Black' and 'is_Black') and  VIFs (all < 1.4) indicate that the influence of multicollinearity is small.
+
+The plot on the left summarizes the frequency of sample Facebook images marked with 'any_appeal' (i.e. at one of 'Black_appeal', 'Hispanic_appeal', 'Asian_appeal', 'LGBTQ+\_appeal') by month, and the right displays the number of Democratic primary elections by month:
+
+<img src="any_appeal_time.jpg" height= "250" width="450" /> <img src="primary_election_time.jpg" height= "250" width="450" />
+
+- I first point out a large peak in Democratic candidates' appeal to measured minority groups in June, with smaller peaks around February (beginning of election cycle) and October (just before the general election). Although June is LGBTQ+ Pride/History month, LGBTQ+-related appeals account for only a portion of the annotated appeals.
+
+- In order to understand why there are so many minority group-related appeals by Democratic politicians clustered around June, I plot the number of Democratic primaries by month and notice that more primary elections occur in June than in any other month.   
+
+- To incorportate the possibility that Democratic candidates post more minority appeal Facebook images leading up to their primary elections, I add the proportion of Democratic primary elections in a given month, 'prop_primaries', into the multiple Logistic regression model predicting 'any_appeal'. **The coefficient on 'prop_primaries' (= 1.18) is a statistically significant positive predictor of 'any_appeal' at the alpha = .05 level (against > 0 alternative), meaning that Democratic candidates are more likely to post appeal-related images in months during which there are more primary elections.**
 
 ii.) Election outcome analysis:
-
 
 
 
