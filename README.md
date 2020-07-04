@@ -57,7 +57,13 @@ The plot on the left summarizes the frequency of sample Facebook images marked w
 
 ii.) Election outcome analysis:
 
+|                     |        'outcomes_int'      |   'outcomes_int'    |
+| --------------------| ---------------------------|---------------------|
+|   constant          |      .034                  |         .057        |
+|   'any_appeal'      |      .617 ***              |                     |
+|   'Black_appeal'    |                            |         .589 ***    |
 
+*** one-sided z-test (> 0) statistically significant at alpha = .01 level
 
 #### VII. Week 4 (Final Week Prior to First Evaluation):
 
