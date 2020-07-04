@@ -23,7 +23,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 - [x] With much enthusaism, I passed my first coding evaluation for the Google Summer of Code. I am appreciative of the support I have received from Dr. Joo and Dr. Park while working on the project, and I look forward to continuing my work. Goals for the second coding period can be found in the 'Week 4' blog post.
 
-This week, Dr. Park has kindly offered to implement a convolutional neural network (CNN) for images to detect the four minority group-related appeal variables using the exisiting annotations we have from the random sample. He will also implement a separate model using the text captions corresponding to each of the Facebook images. Meanwhile, I have been working on two primary tasks that I outline as follows:
+This week, Dr. Park has kindly offered to implement a convolutional neural network (CNN) using images to detect the four minority group-related appeal variables using the exisiting annotations we have from the random sample. He will also implement a separate model using the text captions corresponding to each of the Facebook images. Meanwhile, I have been working on two primary tasks that I outline as follows:
 
 1. **Collaborating to improve politician facial recognition rate**:
 
@@ -60,7 +60,7 @@ The plot on the left summarizes the frequency of sample Facebook images marked w
 ii.) Election outcome analysis:
 
 
-In order to assess whether a Democratic politician's use of minority group-related appeals is a statistically significant _positive_ predictor of election outcome, I construct two Logistic regression models, one using 'any_appeals' (whether a politician's image appealed to any of the measured groups) and the other 'Black_appeal' to predict 'outcomes_int' (1 = Democratic politician wins, 0 = loses). The sample annotations do suggest that Democratic politicians who make use of racial, ethnic, sexual, and gender appeals as well as those who make appeals specifically to Black constituents through Facebook images are more electorally successful. 
+In order to assess whether a Democratic politician's use of minority group-related appeals is a statistically significant _positive_ predictor of election outcome, I construct two Logistic regression models, one using 'any_appeals' (whether a politician's image appealed to any of the measured minority groups) and the other 'Black_appeal' to predict 'outcomes_int' (1 = Democratic politician wins, 0 = loses). The sample annotations do suggest that Democratic politicians who make use of racial, ethnic, sexual, and gender appeals as well as those who make appeals specifically to Black constituents through Facebook images have greater electoral succeess. 
 
 |                     |        'outcomes_int'      |   'outcomes_int'    |
 | --------------------| ---------------------------|---------------------|
