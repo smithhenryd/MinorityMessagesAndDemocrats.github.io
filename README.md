@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### VIV. Week 6:
 
-My primary task this week was working to create an HTML template for image annotation using [Amazon Mechanical Turk](https://www.mturk.com/), an online platform frequently used by researchers to outsource task completion. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. Each page (called a HIT) of the annotation task contains 10 image groups; within each image group there is included the politician's image as well as the Facebook image and caption they posted.
+My primary task this week was working to create an HTML template for image annotation through [Amazon Mechanical Turk](https://www.mturk.com/), an online platform frequently used by researchers to outsource task completion. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. Each page (called a HIT) of the annotation task contains 10 image groups; within each image group there is included the politician's image as well as the Facebook image and caption they posted.
 
 <img src="MTurk_scheme_example.jpg"/>
 
