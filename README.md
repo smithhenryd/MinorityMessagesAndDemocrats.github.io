@@ -21,9 +21,12 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### VIV. Week 6:
 
-My primary task this week was working to create an HTML template for image annotation using [Amazon Mechanical Turk](https://www.mturk.com/), an online crowdsourcing resource. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. 
+My primary task this week was working to create an HTML template for image annotation using [Amazon Mechanical Turk](https://www.mturk.com/), an online platform frequently used by researchers to outsource task completion. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. Each page (called a HIT) of the annotation task contains 10 image groups; within each image group there is included the politician's image as well as the Facebook image and caption they posted.
 
 <img src="MTurk_scheme_example.jpg"/>
+
+In order to correctly embed the images, I learned to use [Google Drive API](https://developers.google.com/drive) in Python to retreive the unique image 'id' number assigned to each Facebook and politician image stored in my Drive. This was completed with the help of [PyDrive](https://pythonhosted.org/PyDrive/), a library containing functions to simplify Google Drive API tasks. 
+
 
 
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
