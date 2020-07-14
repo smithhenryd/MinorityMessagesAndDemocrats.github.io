@@ -57,7 +57,7 @@ The following plot summarizes the frequency of sample Facebook images marked wit
 
 *\*Note that images included in the dataset are those posted by the Democratic politicians up until election day (Nov. 6)*
 
-<img src="Black_appeal_time.jpg" height= "250" width="450" />
+<img src="Black_appeal_time_norm.jpg" height= "250" width="450" />
 
 - The most immediate observation is the peak of Black appeals in February, which is also nationally designated as Black History Month; in the Week 4 post, I concluded that whether or not a Facebook image was posted during Black History Month, 'Black_hist', is a statistically significant positive predictor of 'Black_appeal' at the alpha = .001 level. 
 
@@ -67,7 +67,7 @@ The following plot summarizes the frequency of sample Facebook images marked wit
 
 The plot on the left summarizes the frequency of sample Facebook images marked with 'any_appeal' (i.e. at one of 'Black_appeal', 'Hispanic_appeal', 'Asian_appeal', 'LGBTQ+\_appeal') by month, and the right displays the number of Democratic primary elections by month:
 
-<img src="any_appeal_time.jpg" height= "250" width="450" /> <img src="primary_election_time.jpg" height= "250" width="450" />
+<img src="any_appeal_time_norm.jpg" height= "250" width="450" /> <img src="primary_election_time.jpg" height= "250" width="450" />
 
 - I first point out a large peak in Democratic candidates' appeal to measured minority groups in June, with smaller peaks around February (beginning of election cycle) and October (just before the general election). Although June is LGBTQ+ Pride/History month, LGBTQ+-related appeals account for only a portion of the annotated appeals.
 
