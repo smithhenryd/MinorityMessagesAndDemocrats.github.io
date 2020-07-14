@@ -30,9 +30,10 @@ In order to correctly embed the images in the template, I learned to use [Google
 A test set of three HITs (30 image groups) was published on Mechanical Turk, each of which was annotated three times. This allowed me to determine areas where the annotation scheme needed to be revised prior to releasing the entire batch of 3,264 image groups:
 
 - remove question '	Is the politician themselves physically present in this image?' (low agreement between annotations of MTurk workers and my previous annotations; not necessary for measuring appeal variables)
-- remove sample annotation responses (want to measure what 
+- remove sample annotation responses (want to measure what annotators themselves consider appeal to a given minority group)
+- change wording to more clearly define _appeal_ in context of politicians
 
-On top of this, I com
+On top of this, I collaborated with Danni to complete 2,000+ additional annotations.
 
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
 
