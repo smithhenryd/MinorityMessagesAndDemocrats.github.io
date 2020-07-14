@@ -27,6 +27,11 @@ My primary task this week was working to create an HTML template for image annot
 
 In order to correctly embed the images in the template, I learned to use [Google Drive API](https://developers.google.com/drive) in Python to retreive the unique image 'id' number assigned to each Facebook and politician image stored in my Drive. This was completed with the help of [PyDrive](https://pythonhosted.org/PyDrive/), a library containing functions to simplify Google Drive API tasks. I randomize the assignment of images/captions to HITS so that there is no discernable pattern among the image groups. 
 
+A test set of three HITs (30 image groups) was published on Mechanical Turk, each of which was annotated three times. This allowed me to determine areas where the annotation scheme needed to be revised prior to releasing the entire batch of 3,264 image groups:
+
+- remove question '	Is the politician themselves physically present in this image?' (low agreement between annotations of MTurk workers and my previous annotations; not necessary for measuring appeal variables)
+- remove sample annotation responses (want to measure what 
+
 On top of this, I com
 
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
