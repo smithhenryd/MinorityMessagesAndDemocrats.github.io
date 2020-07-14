@@ -19,6 +19,13 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### VIV. Week 6:
+
+My primary task this week was working to create an HTML template for image annotation using [Amazon Mechanical Turk](https://www.mturk.com/), an online crowdsourcing resource. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. 
+
+<img src="regression_theory.jpg" />
+
+
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
 
 - [x] With much enthusaism, I passed my first coding evaluation for the Google Summer of Code. I am appreciative of the support I have received from Dr. Joo and Dr. Park while working on the project, and I look forward to continuing my work. Goals for the second coding period can be found in the 'Week 4' blog post.
