@@ -23,7 +23,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 My primary task this week was working to create an HTML template for image annotation using [Amazon Mechanical Turk](https://www.mturk.com/), an online crowdsourcing resource. The template will be used for annotation of minority group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. 
 
-<img src="regression_theory.jpg" />
+<img src="MTurk_scheme_example.jpg"/>
 
 
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
