@@ -25,7 +25,9 @@ My primary task this week was working to create an HTML template for image annot
 
 <img src="MTurk_scheme_example.jpg"/>
 
-In order to correctly embed the images, I learned to use [Google Drive API](https://developers.google.com/drive) in Python to retreive the unique image 'id' number assigned to each Facebook and politician image stored in my Drive. This was completed with the help of [PyDrive](https://pythonhosted.org/PyDrive/), a library containing functions to simplify Google Drive API tasks. 
+In order to correctly embed the images in the template, I learned to use [Google Drive API](https://developers.google.com/drive) in Python to retreive the unique image 'id' number assigned to each Facebook and politician image stored in my Drive. This was completed with the help of [PyDrive](https://pythonhosted.org/PyDrive/), a library containing functions to simplify Google Drive API tasks. 
+
+
 
 
 
