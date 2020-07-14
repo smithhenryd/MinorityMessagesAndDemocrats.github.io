@@ -33,7 +33,9 @@ A test set of three HITs (30 image groups) was published on Mechanical Turk, eac
 - remove sample annotation responses (want to measure what annotators themselves–not researchers–consider appeal to a given minority group)
 - change wording to more clearly define _appeal_ in context of politicians
 
-On top of this, I collaborated with Danni to complete 2,000+ additional annotations.
+On top of this, I collaborated with Danni to complete 2,000+ additional annotations for a set of images from the 2018 Facebook dataset on which the clustering facial recognition code had been run. The first half of this data included Facebook images in which the 'main' politician's (he/she/they who posted the image) face was detected and boxed; I was asked to determine whether or not the boxed face indeed belonged to the politician(98.96% accuracy). For the latter half of the images, the main politician's face was not detected by the code, and I confirmed that the politician's face was indeed not visible (80.29% accuracy). 
+
+
 
 #### VIII. Week 5 (First Evaluation and Beginning of Second Coding Period):
 
