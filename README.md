@@ -53,11 +53,15 @@ In order to better understand future directions of the project and potential res
 
 i.) Temporal analysis:
 
-The following plot summarizes the frequency of sample Facebook images marked with 'Black_appeal' by month: 
+The following plot summarizes the proportion of sample Facebook images marked with 'Black_appeal' by month: 
 
 *\*Note that images included in the dataset are those posted by the Democratic politicians up until election day (Nov. 6)*
 
 <img src="Black_appeal_time_norm.jpg" height= "250" width="450" />
+
+_Proportions are calculated using the number of Facebook images posted each month_:
+
+<img src="num_imgs_time.jpg" height= "250" width="450" />
 
 - The most immediate observation is the peak of Black appeals in February, which is also nationally designated as Black History Month; in the Week 4 post, I concluded that whether or not a Facebook image was posted during Black History Month, 'Black_hist', is a statistically significant positive predictor of 'Black_appeal' at the alpha = .001 level. 
 
