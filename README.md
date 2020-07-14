@@ -59,7 +59,7 @@ The following plot summarizes the proportion of sample Facebook images marked wi
 
 <img src="Black_appeal_time_norm.jpg" height= "250" width="450" />
 
-_Proportions are calculated using the number of Facebook images posted each month_:
+Proportions are calculated using the number of Facebook images posted each month:
 
 <img src="num_imgs_time.jpg" height= "250" width="450" />
 
