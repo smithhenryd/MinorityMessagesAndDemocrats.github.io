@@ -259,7 +259,7 @@ I spent the first half of this week conducting [background research](https://git
 
 A few relevant discussions to consider are as follows:
 
-- At first, one may think that candidates belonging to an underrepresented group leverage connections within their respective racial and ethnic communities and thus display more visual appeals to these groups. McIllwain and Caliendo, 2011, however, suggests that, under certain conditions, the opposite may be true: minority candidates with predominantly white consituencies may use **counter-stereotype references**. The candidate, seeking to counter the racist stereotypes held by white voters, may distance themselves from their own racial or ethnic group. 
+- At first, one may think that candidates belonging to an underrepresented group leverage connections within their respective racial and ethnic communities and thus display more visual appeals to these groups. McIllwain and Caliendo, 2011, however, suggests that, under certain conditions, the opposite may be true: candidates belonging to an underrepresented group with predominantly white consituencies may use **counter-stereotype references**. The candidate, seeking to counter the racist stereotypes held by white voters, may distance themselves from their own racial or ethnic group. 
 
 - An analysis of political advertisements by McIllwain and Caliendo, 2011 suggested that racial appeals by candidates belonging to an underrepresented group focus primarily on the candidates image as opposed to concrete policy. 
 
