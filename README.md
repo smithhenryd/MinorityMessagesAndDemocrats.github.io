@@ -6,7 +6,7 @@
 
 My name is Henry Smith, and I am a rising junior at Yale College majoring in Statistics & Data Science with an interest in U.S. government, specifically political communication between elected officials and their constituencies. For my Google Summer of Code project in collaboration with Red Hen Lab, I will be working with mentors [Jungseock Joo](http://home.jsjoo.com/) at the University of California, Los Angeles Deparment of Communication and [Dr. Kunwoo Park](http://kunwpark.kr/), a postdoctoral researcher at the University of California, Los Angeles Deparment of Communication. The project will focus on understanding how Democratic politicians communicate with underrepresented racial, sexual, and gender voters through social media visual imagery. By the generosity of Dr. Joo and his colleagues, images will be sourced through a dataset compiled from politician Facebook accounts during the 2018 U.S. midterm election cycle. 
 
-The complete proposal can be found in my [Github repository for the project](https://github.com/smithhenryd/GSoC_2020_MinorityMessagesAndDemocrats-).
+The complete proposal can be found in my [Github repository for the project](https://github.com/smithhenryd/GSoC_2020_UnderrepresentedMessagesAndDemocrats-).
 
 #### Contact Information:
 I am always excited to receive feedback on my work or meet new people, so feel free to reach out to me using any of the following platforms.
