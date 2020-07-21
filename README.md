@@ -50,6 +50,10 @@ Finally, I aggregate the MTurk annotations by taking a plurality of the annotati
 |   'Asian_appeal'    |      0.297                 | 
 |  'LGBTQ+\_appeal'   |      0.614                 |
 
+There is a higher level of inner-annotator agreement between my annotation and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators moreso than they disagreed among themselves.
+
+
+
 #### VIV. Week 6:
 
 My primary task this week was working to create an HTML template for image annotation through [Amazon Mechanical Turk](https://www.mturk.com/), an online platform frequently used by researchers to outsource task completion. The template will be used for annotation of underrepresented group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. Each page (called a HIT) of the annotation task contains 10 image groups; within each image group there is included the politician's image as well as the Facebook image and caption they posted.
