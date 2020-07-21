@@ -41,7 +41,7 @@ Subsequently, I merged the MTurk annotations with my own. Among the four annotat
 |   'Asian_appeal'    |      0.134                 | 
 |  'LGBTQ+\_appeal'   |      0.217                 |
 
-Finally, I aggregate the MTurk annotations by taking a plurality of the four appeal variables (ex. if two workers mark an image with 'Asian_appeal' and one does not, the image is classified as 'Asian_appeal'). The inner-annotator agreement between my annotations and the aggregated MTurk annotations is summarized with [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa):
+Finally, I aggregate the MTurk annotations by taking a plurality for each of the four appeal variables (ex. if two workers mark an image with 'Asian_appeal' and one does not, the image is classified as 'Asian_appeal'). The inner-annotator agreement between my annotations and the aggregated MTurk annotations is summarized with [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa):
 
 |                     |        Cohen's kappa (κ)   |
 | --------------------| ---------------------------|
