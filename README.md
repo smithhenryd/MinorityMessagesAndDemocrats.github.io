@@ -52,6 +52,8 @@ Finally, I aggregate the MTurk annotations by taking a plurality of the annotati
 
 There is a higher level of inner-annotator agreement between my annotation and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is a decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators more so than they disagreed among themselves.
 
+In order to aggregate my annotations with the MTurk annotations, a simple plurality among appeal variables is used; images marked by two of four annotators with a given appeal variable are reassesed for this variable by an additional annotator (who has not yet seen/annotated the images). Next week, Dr. Kunwoo Park and I will use these annotations to train a model from the Facebook images and captions to predict each of the four appeal variables related to underrepresented racial, ethnic, sexual, and gender minority groups.  
+
 
 
 #### VIV. Week 6:
