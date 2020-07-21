@@ -30,7 +30,7 @@ This week's focus was collecting and organizing the annotations on the sample Fa
 |   'Asian_appeal'    |      0.137                 | 
 |  'LGBTQ+\_appeal'   |      0.183                 |
 
-Results indicate that there is slight agreement between annotators regarding which images are marked with 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', while there is moderate agreement for the 'Black_appeal' variable. Provided that each of these four appeal variables are moderately subjective (what one annotator considers 'LGBTQ+\_appeal' may not be the same as another), we would not expect a high level of inner-annotator agreement. Notice, however, that agreement for all four variables is > 0, indicating that the observed level of agreement is greater than that of random chance.
+Results indicate that there is slight agreement between annotators regarding which images are marked with 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', while there is moderate agreement for the 'Black_appeal' variable. Provided that each of these four appeal variables is moderately subjective (what one annotator considers 'LGBTQ+\_appeal' may not be the same as another), we would not expect a high level of inner-annotator agreement. Notice, however, that agreement for all four variables is > 0, indicating that the level of agreement is greater than that which would be observed due to random chance.
 
 Subsequently, I merged the MTurk annotations with my own. Among the four annotators (three MTurk workers and myself) for each image pair:
 
