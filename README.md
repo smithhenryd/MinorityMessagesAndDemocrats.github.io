@@ -19,6 +19,10 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### X. Week 7:
+
+This week's focus for the project was collecting the annotations on the sample Facebook images with Amazon Mechanical Turk
+
 #### VIV. Week 6:
 
 My primary task this week was working to create an HTML template for image annotation through [Amazon Mechanical Turk](https://www.mturk.com/), an online platform frequently used by researchers to outsource task completion. The template will be used for annotation of underrepresented group-specific appeal variables on the Facebook images dataset; hopefully, we will have each image and caption in the random sample annotated multiple times by next week. Each page (called a HIT) of the annotation task contains 10 image groups; within each image group there is included the politician's image as well as the Facebook image and caption they posted.
