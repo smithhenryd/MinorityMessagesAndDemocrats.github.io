@@ -50,7 +50,7 @@ Finally, I aggregate the MTurk annotations by taking a plurality of the annotati
 |   'Asian_appeal'    |      0.297                 | 
 |  'LGBTQ+\_appeal'   |      0.614                 |
 
-There is a higher level of inner-annotator agreement between my annotation and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators moreso than they disagreed among themselves.
+There is a higher level of inner-annotator agreement between my annotation and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is a decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators more so than they disagreed among themselves.
 
 
 
