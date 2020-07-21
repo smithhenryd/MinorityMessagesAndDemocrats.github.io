@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### X. Week 7:
 
-This week's focus was collecting and organizing the annotations on the sample Facebook images with Amazon Mechanical Turk. Almost all images were annotated by three separate annotators. Assignments were either manually accepted or rejected based on indications of 'random annotation' (ex. HITs with patterns of 'Yes' and 'No' responses were rejected). Upon completion, I worked to merge the MTurk results with a metadata file containing the image file names, politician names, etc. using the captions provided to MTurk in the input file. Inner-annotator agreement among images annotated by three MTurk workers is assessed using [Fleiss' kappa](https://en.wikipedia.org/wiki/Fleiss%27_kappa):
+This week's focus was collecting and organizing the annotations on the sample Facebook images performed with Amazon Mechanical Turk. Almost all images were annotated by three separate annotators. Assignments were either manually accepted or rejected based on indications of 'random annotation' (ex. HITs with patterns of 'Yes' and 'No' responses were rejected). Upon completion, I worked to merge the MTurk results with a metadata file containing the image file names, politician names, etc. using the captions provided to MTurk in the input file. Inner-annotator agreement among images annotated by three MTurk workers is assessed using [Fleiss' kappa](https://en.wikipedia.org/wiki/Fleiss%27_kappa):
 
 |                     |        Fleiss' kappa (κ)   |
 | --------------------| ---------------------------|
