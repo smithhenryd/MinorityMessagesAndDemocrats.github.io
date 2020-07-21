@@ -28,9 +28,27 @@ This week's focus for the project was collecting and organizing the annotations 
 |   'Black_appeal'    |      0.424                 |
 |  'Hispanic_appeal'  |      0.194                 |  
 |   'Asian_appeal'    |      0.137                 | 
-|  'LGBTQ+_appeal'    |      0.183                 |
+|  'LGBTQ+\_appeal'   |      0.183                 |
 
+Results indicate that there is slight agreement between annotators regarding which images are marked with 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', while there is moderate agreement for the 'Black_appeal' variable. Provided that each of these four appeal variables are moderately subjective (what one annotator considers 'LGBTQ+\_appeal' may not be the same as another), we would not expect a high level of inner-annotator agreement. Notice, however, that agreement for all four variables is > 0, indicating that the observed level of agreement is greater than that of random chance.
 
+Subsequently, I merged the MTurk annotations with my own. Among the four annotators (three MTurk workers and myself) for each image pair:
+
+|                     |        Fleiss' kappa (κ)   |
+| --------------------| ---------------------------|
+|   'Black_appeal'    |      0.352                 |
+|  'Hispanic_appeal'  |      0.188                 |  
+|   'Asian_appeal'    |      0.134                 | 
+|  'LGBTQ+\_appeal'   |      0.217                 |
+
+Finally, I aggregate the MTurk annotations by taking a plurality of the annotations completed on image pairs by three workers (ex. if two workers mark an image with 'Asian_appeal' and one does not, the image is classified as 'Asian_appeal'). The inner-annotator agreement between my annotations and the aggregated MTurk annotations is summarized with [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa):
+
+|                     |        Cohen's kappa (κ)   |
+| --------------------| ---------------------------|
+|   'Black_appeal'    |      0.337                 |
+|  'Hispanic_appeal'  |      0.321                 |  
+|   'Asian_appeal'    |      0.297                 | 
+|  'LGBTQ+\_appeal'   |      0.614                 |
 
 #### VIV. Week 6:
 
