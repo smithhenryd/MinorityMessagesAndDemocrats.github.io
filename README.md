@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### X. Week 7:
 
-This week's focus was collecting and organizing the annotations on the sample Facebook images performed with Amazon Mechanical Turk. Almost all images were annotated by three separate annotators. Assignments were manually accepted or rejected depending on indications of 'random annotation' (ex. HITs with patterns of 'Yes' and 'No' responses were rejected). Upon completion, I worked to merge the MTurk results with a metadata file containing the image file names, politician names, etc. using the captions provided to MTurk in the input file. Inner-annotator agreement among images annotated by three MTurk workers is assessed using [Fleiss' kappa](https://en.wikipedia.org/wiki/Fleiss%27_kappa):
+This week's focus was collecting and organizing the annotations on the sample Facebook images performed with Amazon Mechanical Turk. Almost all images were annotated by three separate annotators. Assignments were manually accepted or rejected depending on indications of 'random annotation' (ex. HITs with patterns of 'Yes' and 'No' responses were rejected). Upon completion, I worked to merge the MTurk results with a metadata file containing the image file names, politician names, etc. using the captions provided to MTurk in the input file. Inter-annotator agreement among images annotated by three MTurk workers is assessed using [Fleiss' kappa](https://en.wikipedia.org/wiki/Fleiss%27_kappa):
 
 |                     |        Fleiss' kappa (κ)   |
 | --------------------| ---------------------------|
@@ -30,7 +30,7 @@ This week's focus was collecting and organizing the annotations on the sample Fa
 |   'Asian_appeal'    |      0.137                 | 
 |  'LGBTQ+\_appeal'   |      0.183                 |
 
-Results indicate that there is slight agreement between annotators regarding which images are marked with 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', while there is moderate agreement for the 'Black_appeal' variable. Provided that each of these four appeal variables is moderately subjective (what one annotator considers 'LGBTQ+\_appeal' may not be the same as another), we would not expect a high level of inner-annotator agreement. Notice, however, that agreement for all four variables is > 0, indicating that the level of agreement is greater than that which would be observed due to random chance.
+Results indicate that there is slight agreement between annotators regarding which images are marked with 'Hispanic_appeal', 'Asian_appeal', and 'LGBTQ+\_appeal', while there is moderate agreement for the 'Black_appeal' variable. Provided that each of these four appeal variables is moderately subjective (what one annotator considers 'LGBTQ+\_appeal' may not be the same as another), we would not expect a high level of inter-annotator agreement. Notice, however, that agreement for all four variables is > 0, indicating that the level of agreement is greater than that which would be observed due to random chance.
 
 Subsequently, I merged the MTurk annotations with my own. Among the four annotators (three MTurk workers and myself) for each image pair:
 
@@ -41,7 +41,7 @@ Subsequently, I merged the MTurk annotations with my own. Among the four annotat
 |   'Asian_appeal'    |      0.134                 | 
 |  'LGBTQ+\_appeal'   |      0.217                 |
 
-Finally, I aggregate the MTurk annotations by taking a plurality for each of the four appeal variables (ex. if two workers mark an image with 'Asian_appeal' and one does not, the image is classified as 'Asian_appeal'). The inner-annotator agreement between my annotations and the aggregated MTurk annotations is summarized with [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa):
+Finally, I aggregate the MTurk annotations by taking a plurality for each of the four appeal variables (ex. if two workers mark an image with 'Asian_appeal' and one does not, the image is classified as 'Asian_appeal'). The inter-annotator agreement between my annotations and the aggregated MTurk annotations is summarized with [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa):
 
 |                     |        Cohen's kappa (κ)   |
 | --------------------| ---------------------------|
@@ -50,7 +50,7 @@ Finally, I aggregate the MTurk annotations by taking a plurality for each of the
 |   'Asian_appeal'    |      0.297                 | 
 |  'LGBTQ+\_appeal'   |      0.614                 |
 
-There is a higher level of inner-annotator agreement between my annotations and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is a decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators more so than they disagreed among themselves.
+There is a higher level of inter-annotator agreement between my annotations and the aggregated MTurk annotations for the 'Hispanic_appeal', 'Asian_appeal', and especially the 'LGBTQ+\_appeal' variables than when the MTurk worker responses were left separate. However, there is a decrease in the kappa value for 'Black_appeal' from the four separate annotations and the three MTurk annotations, indicating that my classification of 'Black_appeal' disagreed with the annotators more so than they disagreed among themselves.
 
 In order to aggregate my annotations with the MTurk annotations, a simple plurality among appeal variables is used; images marked by two of four annotators with a given appeal variable are reassesed for this variable by an additional annotator (who has not yet seen/annotated the images). Next week, Dr. Kunwoo Park and I will use these annotations to train a model from the Facebook images and captions to predict each of the four appeal variables related to the measured underrepresented racial, ethnic, sexual, and gender minority groups.  
 
