@@ -32,7 +32,7 @@ Having completed the report, I then performed a closer analysis of the relations
 |   Forehead (.12)      |      Graffiti (0.13)        |  Schnoodle (.17)     |    Hair coloring (.18) |
 |    Black hair (.13)   |      Artist (0.13)          |  Shih tzu (.17)      |     Lace wig (.18)     |
 
-While this does not provide us with an absolute categorization of the content of images annotated with the four appeal variables, we can glean general ideas or concepts. First, it seems that many of the 'Black_appeal' images shared by Democratic politicians are black-and-white photographs paying homage to the U.S. Civil Rights Movement. Moreover, the labels may suggest that 'Hispanic_appeal' and 'Asian_appeal' images share content related to Hispanic and Asian culture and traditions, respectively. Lastly, the four labels correlated with LGBTQ+ appeal clearly to capture Democratic politicians' appeal to the LGBTQ+ community through pride events or feastivals. 
+While this does not provide us with an absolute categorization of the content of images annotated with the four appeal variables, we can glean general ideas or concepts. First, it seems that many of the 'Black_appeal' images shared by Democratic politicians are black-and-white photographs paying homage to the U.S. Civil Rights Movement. Moreover, the labels may suggest that 'Hispanic_appeal' and 'Asian_appeal' images share content related to Hispanic and Asian culture and traditions, respectively. Lastly, the four labels correlated with 'LGBTQ+\_appeal' clearly capture Democratic politicians' outreach to the LGBTQ+ community through pride events or festivals. 
 
 
 #### X. Week 7:
