@@ -19,6 +19,22 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### XI. Week 8 (Final Week Prior to Second Evaluation): 
+
+I spent the first portion of my week summarizing the preliminary results of our research for a proposal by Dr. Joo. In this report, I included background information related to the value and timeliness of the research as well as a review of [previous publications related to the topic](https://github.com/smithhenryd/GSoC_2020_UnderrepresentedMessagesAndDemocrats-/blob/master/background/Research_Index.pdf). Also, I outlined progress related to the annotation of the preliminary random sample of Facebook images (annotation rate for each of the four appeal variables, inter-annotator agreement, significant logistic regression predictors) and provided an indication of the future direction of our research.
+
+Having completed the report, I then performed a closer analysis of the relationship between the Google Vision API image labels and the appeal variables specific to the four measured underrepresented groups for the first sample of images. Some of the correlations > .10 between the labels and each appeal variable are displayed as follows:
+
+|     'Black_appeal'     |       'Hispanic_appeal'    |     'Asian_appeal'   |      'LGBTQ+\_appeal'  |
+| -----------------------| ---------------------------|----------------------|------------------------|
+|   Adaptation (.10)    |      Bakery (.13)           |   Dragon (.17)       |     Festival (.11)     |
+|  Black-and-white (.15)|      Bazaar (.13)           |   Blouse (.17)       |     Heart (.11)        |
+|   Forehead (.12)      |      Graffiti (0.13)        |  Schnoodle (.17)     |    Hair coloring (.18) |
+|    Black hair (.13)   |      Artist (0.13)          |  Shih tzu (.17)      |     Lace wig (.18)     |
+
+While this does not provide us with an absolute categorization of the content of images annotated with the four appeal variables, we can glean general ideas or concepts. First, it seems that many of the 'Black_appeal' images shared by Democratic politicians are black-and-white photographs paying homage to the U.S. Civil Rights Movement. Moreover, the labels may suggest that 'Hispanic_appeal' and 'Asian_appeal' images share content related to Hispanic and Asian culture and traditions, respectively. Lastly, the four labels correlated with LGBTQ+ appeal clearly to capture Democratic politicians' appeal to the LGBTQ+ community through pride events or feastivals. 
+
+
 #### X. Week 7:
 
 This week's focus was collecting and organizing the annotations on the sample Facebook images performed with Amazon Mechanical Turk. Almost all images were annotated by three separate annotators. Assignments were manually accepted or rejected depending on indications of 'random annotation' (ex. HITs with patterns of 'Yes' and 'No' responses were rejected). Upon completion, I worked to merge the MTurk results with a metadata file containing the image file names, politician names, etc. using the captions provided to MTurk in the input file. Inter-annotator agreement among images annotated by three MTurk workers is assessed using [Fleiss' kappa](https://en.wikipedia.org/wiki/Fleiss%27_kappa):
