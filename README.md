@@ -36,7 +36,7 @@ Plotted below are the distribution of scores for the N images in the Facebook im
 
 Across all four appeal variables, the distributions of predicted scores are right-skewed; therefore, uniformly sampling from the support of scores will result in a sample with a greater proportion of high scores than in the underlying distribution. As mentioned previously, because the goal of the second sample is to select images with a higher probability of positive annotation with the four appeal variables, this is the desired result. Notice that some of the predicted appeal variable score distributions, such as that of 'Asian_appeal', are more strongly right-skewed. As a result, the distribution of appeal scores for the sample images is not as uniform as desired (once all the images with high scores are selected, the distance from the sampled score to the image with the closest score is much larger). Fortunately, this does not pose a problem due to the aforementioned desire for more positively-annotated images. 
 
-Once this 
+Once the samples of n<sub>2i</sub> = 1,000 (1 ≤ i ≤ 4) images were compiled for each of the four appeal variables, the images were combined and duplicates were removed. The resulting sample of n<sub>2</sub> = 3,886 images were formatted into an input csv file for manual annotation by Amazon Mechanical Turk. Each image pair (politician image, Facebook image, and caption) will be annotated according to the [finalized annotation scheme](). 
 
 #### XI. Week 8 (Final Week Prior to Second Evaluation): 
 
