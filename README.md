@@ -19,6 +19,13 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### XII. Week 9:
+
+
+- [x] I am excited to announce that I have passed the second evaluation for the Google Summer of Code. I am appreciate of the support that I have received both from my mentors, Dr. Jungseock Joo and Dr. Kunwoo Park, as well as from Red Hen Lab. 
+
+
+
 #### XI. Week 8 (Final Week Prior to Second Evaluation): 
 
 I spent the first portion of my week summarizing the preliminary results of our research for a proposal by Dr. Joo. In this report, I included background information related to the value and timeliness of the research as well as a review of [previous publications relevant to the topic](https://github.com/smithhenryd/GSoC_2020_UnderrepresentedMessagesAndDemocrats-/blob/master/background/Research_Index.pdf). Also, I outlined progress related to the annotation of the preliminary random sample of Facebook images (annotation rate for each of the four appeal variables, inter-annotator agreement, significant logistic regression predictors) and provided an indication of the future direction of our research.
