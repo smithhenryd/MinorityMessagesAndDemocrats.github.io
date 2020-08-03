@@ -24,7 +24,9 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 - [x] I am excited to announce that I have passed the second evaluation for the Google Summer of Code. I am appreciate of the support that I have received both from my mentors, Dr. Jungseock Joo and Dr. Kunwoo Park, as well as from Red Hen Lab. 
 
+The primary focus of this week's work was image sampling and annotation for the second sample of Facebook images and captions. While the first sample was drawn in a semi-random manner described previously, this subsequent sample was drawn from the predictive scores of images. Specifically, the text and image-based machine learning models predicting the four appeal variables were trained using the first annotations (n<sub>1</sub> = 3,264) and applied to the entire dataset of images (N = 62,105). Rather than sampling the n<sub>2i</sub> (1 ≤ i ≤ 4) images with the highest scores for each of the four appeal variables, we want to ensure that our sample is representative of the the many different ways (both implicit and explicit) that Democratic politicians may appeal to these underrepresented voter groups. Additionally, sampling across the support of scores ensures the inclusion of images for which the model predicts a low 'LGBTQ+\_appeal' score, for example, but may in fact be appealing to LGBTQ+ voters. 
 
+<img src="Black_appeal_dist.jpg" height= "250" width="450" />
 
 #### XI. Week 8 (Final Week Prior to Second Evaluation): 
 
