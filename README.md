@@ -26,7 +26,11 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 The primary focus of this week's work was image sampling and annotation for the second sample of Facebook images and captions. While the first sample was drawn in a semi-random manner described previously, this subsequent sample was drawn from the predictive scores of images. Specifically, the text and image-based machine learning models predicting the four appeal variables were trained using the first annotations (n<sub>1</sub> = 3,264) and applied to the entire dataset of images (N = 62,105). Rather than sampling the n<sub>2i</sub> (1 ≤ i ≤ 4) images with the highest scores for each of the four appeal variables, we want to ensure that our sample is representative of the the many different ways (both implicit and explicit) that Democratic politicians may appeal to these underrepresented voter groups. Additionally, sampling across the support of scores ensures the inclusion of images for which the model predicts a low 'LGBTQ+\_appeal' score, for example, but may in fact be appealing to LGBTQ+ voters. 
 
-<img src="Black_appeal_dist.jpg" height= "250" width="450" />
+In compiling the sample, we sought to sample images uniformly by predicted score for each of the four appeal variables. To do so, an independent sample of 1,000 observations were drawn from the Uniform(min, max) distribution (where min and max are the minimum and maximum appeal prediction scores for the given appeal variable). As our distribution of image scores was discrete, the distance of each observed image score 
+
+<img src="Black_appeal_scores.jpg" height= "250" width="450" /> <img src="Black_appeal_dist.jpg" height= "250" width="450" />
+
+<img src="Asian_appeal_scores.jpg" height= "250" width="450" /> <img src="Asian_appeal_dist.jpg" height= "250" width="450" />
 
 #### XI. Week 8 (Final Week Prior to Second Evaluation): 
 
