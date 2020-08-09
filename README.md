@@ -34,7 +34,7 @@ Although there exists only slight agreement among annotators regarding what cons
 
 Thereafter, the annotations were compiled according to a majority agreement among the Mechanical Turk workers (ex. if 'img1' was annotated as 'Yes' for 'Asian_appeal' by three individuals and 'No' by the remaining two, the image is marked with 'Asian_appeal'). Images for which there was a tie in 'Yes'/'No' annotations for one or more appeal variables were then annotated by an additional individual.
 
-The proportion of images 
+The proportions of images annotated positively ('Yes') with each of the four appeal variables are compiled as follows (positive annotation rate for the first sample included in parenthesis): 
 
 |                     |  Proportion of positively-annotated images |
 | --------------------| -------------------------------------------|
@@ -42,6 +42,16 @@ The proportion of images
 |  'Hispanic_appeal'  |         0.075 (0.018)                      |  
 |   'Asian_appeal'    |         0.015 (0.011)                      | 
 |  'LGBTQ+\_appeal'   |         0.046 (0.012)                      |
+
+From these proportions, we see that our technique of semi-uniform sampling by score was effective at increasing the rate of positive annotation across **all four appeal variables**. The number of images annotated with 'Black_appeal' nearly doubled while those annotated with 'Hispanic_appeal' and 'LGBTQ+\_appeal' almost quadrupled. The only slight increase in proportion of 'Asian_appeal' images may suggest that the text and image-based machine learning models were not effective in capturing what annotators considered appeal to Asian voters in the first semi-random sample.
+
+This upcoming week, Dr. Kunwoo Park will use the second batch of annotations to improve the text and image-based machine learning models. The models will once again be inferred on the entire set of Facebook images and captions; analysis will subsequently be completed using the predicted appeal scores. In the meantime, I have been working to construct an analysis pipeline of these predicted image appeal scores. So far, my progress has included:
+
+- Prediction of appeal score from consituent and candidate characteristics (multiple linear regression model)
+- Prediction of election outcome from appeal scores (logistic regression)
+- Temporal analysis of image and normalized appeal frequency by month and day
+- Analysis of appeal before and after the primary and general elections for each candidate using a paired statistical testing procedure
+
 
 
 #### XII. Week 9:
