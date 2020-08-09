@@ -19,6 +19,31 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+#### XIII. Week 10: 
+
+Annotations were completed for the sample of  n<sub>2</sub> = 3,886 images selected semi-uniformly by predicted appeal score from the machine learning models trained using the first round of annotations (see Week 9 post for detailed description of sampling technique). The inter-annotator agreement for image pairs (politician image, Facebook image, caption) annotated by five workers is summarized below. Some images were annotated by more/fewer individuals due to the process of rejecting random responses. The Fleiss' kappa scores κ for the first semi-random Mechanical Turk sample are incldued in parenthesis. 
+
+|                     |        Fleiss' kappa (κ)   |
+| --------------------| ---------------------------|
+|   'Black_appeal'    |      0.444 (0.424)         |
+|  'Hispanic_appeal'  |      0.383 (0.194)         |  
+|   'Asian_appeal'    |      0.133 (0.137)         | 
+|  'LGBTQ+\_appeal'   |      0.475 (0.183)         |
+
+Although there exists only slight agreement among annotators regarding what constitutes appeal to Asian voters, we see major increases in inter-annotator agreement for 'Hispanic_appeal' and 'Asian_appeal'. This is likely because there was a higher positive annotation rate for these variables (see table below) and accordingly more cues (both implicit and explicit) present in the Facebook images and captions.
+
+Thereafter, the annotations were compiled according to a majority agreement among the Mechanical Turk workers (ex. if 'img1' was annotated as 'Yes' for 'Asian_appeal' by three individuals and 'No' by the remaining two, the image is marked with 'Asian_appeal'). Images for which there was a tie in 'Yes'/'No' annotations for one or more appeal variables were then annotated by an additional individual.
+
+The proportion of images 
+
+|                     |  Proportion of positively-annotated images |
+| --------------------| -------------------------------------------|
+|   'Black_appeal'    |         0.103 (0.065)                      |
+|  'Hispanic_appeal'  |         0.075 (0.018)                      |  
+|   'Asian_appeal'    |         0.015 (0.011)                      | 
+|  'LGBTQ+\_appeal'   |         0.046 (0.012)                      |
+
+
 #### XII. Week 9:
 
 
