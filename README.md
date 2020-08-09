@@ -48,7 +48,7 @@ From these proportions, we see that our technique of semi-uniform sampling by sc
 This upcoming week, Dr. Kunwoo Park will use the second batch of annotations to improve the text and image-based machine learning models. The models will once again be inferred on the entire set of Facebook images and captions; analysis will subsequently be completed using the predicted appeal scores. In the meantime, I have been working to construct an analysis pipeline of these predicted image appeal scores. So far, my progress has included:
 
 - Prediction of appeal score from constituent and candidate characteristics (multiple linear regression model)
-- Prediction of election outcome from appeal scores (logistic regression)
+- Prediction of election outcome from appeal scores (multiple logistic regression)
 - Temporal analysis of image and normalized appeal frequency by month and day
 - Analysis of appeal before and after the primary and general elections for each candidate using a paired statistical testing procedure
 
