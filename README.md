@@ -19,18 +19,18 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
-Third Coding Period:
+**Third Coding Period**:
 - [Final Project Presentation](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io)
 - [Week 10](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xiii-week-10)
 - [Week 9](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xii-week-9)
 
-Second Coding Period:
+**Second Coding Period**:
 - [Week 8](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xi-week-8-final-week-prior-to-second-evaluation)
 - [Week 7](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#x-week-7)
 - [Week 6](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#viv-week-6)
 - [Week 5](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#viii-week-5-first-evaluation-and-beginning-of-second-coding-period)
 
-First Coding Period:
+**First Coding Period**:
 - [Week 4](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#vii-week-4-final-week-prior-to-first-evaluation)
 - [Week 3](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#vi-week-3)
 - [Week 2](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#v-week-2)
