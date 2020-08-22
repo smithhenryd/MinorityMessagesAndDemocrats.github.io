@@ -22,19 +22,19 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 **Third Coding Period**:
 - [Final Project Presentation](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io)
 - [Week 10](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xiii-week-10)
-- [Week 9](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xii-week-9)
+- [Week 9](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xii-week-9)
 
 **Second Coding Period**:
-- [Week 8](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xi-week-8-final-week-prior-to-second-evaluation)
-- [Week 7](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#x-week-7)
-- [Week 6](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#viv-week-6)
-- [Week 5](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#viii-week-5-first-evaluation-and-beginning-of-second-coding-period)
+- [Week 8](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xi-week-8-final-week-prior-to-second-evaluation)
+- [Week 7](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#x-week-7)
+- [Week 6](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#viv-week-6)
+- [Week 5](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#viii-week-5-first-evaluation-and-beginning-of-second-coding-period)
 
 **First Coding Period**:
-- [Week 4](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#vii-week-4-final-week-prior-to-first-evaluation)
-- [Week 3](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#vi-week-3)
-- [Week 2](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#v-week-2)
-- [Week 1](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#iv-coding-period-week-1)
+- [Week 4](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#vii-week-4-final-week-prior-to-first-evaluation)
+- [Week 3](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#vi-week-3)
+- [Week 2](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#v-week-2)
+- [Week 1](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#iv-coding-period-week-1)
 
 #### XIII. Week 10: 
 
