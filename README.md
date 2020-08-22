@@ -21,7 +21,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 **Third Coding Period**:
 - [Final Project Presentation](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io)
-- [Week 10](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xiii-week-10)
+- [Week 10](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xiii-week-10)
 - [Week 9](https://github.com/smithhenryd/UnderrepresentedMessagesAndDemocrats.github.io#xii-week-9)
 
 **Second Coding Period**:
