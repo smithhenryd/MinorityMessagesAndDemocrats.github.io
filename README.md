@@ -19,6 +19,23 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
+Third Coding Period:
+- [Final Project Presentation]()
+- [Week 10]()
+- [Week 9]()
+
+Second Coding Period:
+- [Week 8]()
+- [Week 7]()
+- [Week 6]()
+- [Week 5]()
+
+First Coding Period:
+- [Week 4]()
+- [Week 3]()
+- [Week 2]()
+- [Week 1]()
+
 #### XIII. Week 10: 
 
 Annotations were completed for the sample of  n<sub>2</sub> = 3,886 images selected semi-uniformly by predicted appeal score from the machine learning models trained using the first round of annotations (see Week 9 post for detailed description of sampling technique). The inter-annotator agreement for image pairs (politician image, Facebook image, caption) annotated by five workers is summarized below. Some images were annotated by more/fewer individuals due to the process of rejecting random responses. The Fleiss' kappa scores κ for the first semi-random Mechanical Turk sample are included in parenthesis. 
