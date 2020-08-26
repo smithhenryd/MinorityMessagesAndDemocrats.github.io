@@ -36,6 +36,9 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 - [Week 2](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#v-week-2)
 - [Week 1](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#iv-coding-period-week-1)
 
+#### XIV. Final Project Presentation: 
+
+
 #### XIII. Week 10: 
 
 Annotations were completed for the sample of  n<sub>2</sub> = 3,886 images selected semi-uniformly by predicted appeal score from the machine learning models trained using the first round of annotations (see Week 9 post for detailed description of sampling technique). The inter-annotator agreement for image pairs (politician image, Facebook image, caption) annotated by five workers is summarized below. Some images were annotated by more/fewer individuals due to the process of rejecting random responses. The Fleiss' kappa scores κ for the first semi-random Mechanical Turk sample are included in parenthesis. 
