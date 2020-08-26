@@ -20,7 +20,7 @@ I am always excited to receive feedback on my work or meet new people, so feel f
 Throughout the summer, I will document progress on my Google Summer of Code project through weekly blog posts. The posts are ordered with the most recent posts presented first:
 
 **Third Coding Period**:
-- [Final Project Presentation](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/)
+- [Final Project Presentation](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xiv-final-project-presentation)
 - [Week 10](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xiii-week-10)
 - [Week 9](https://smithhenryd.github.io/UnderrepresentedMessagesAndDemocrats.github.io/#xii-week-9)
 
