@@ -38,7 +38,7 @@ Throughout the summer, I will document progress on my Google Summer of Code proj
 
 #### XIV. [Final Project Presentation](https://github.com/smithhenryd/GSoC_2020_UnderrepresentedMessagesAndDemocrats-/tree/master/project_submission): 
 
-"Understanding Messages to Underrepresented Racial, Ethnic, Gender, and Sexual Groups on Social Media by Democratic Politicians and their Electoral Implications" was contributed by Henry Smith with Red Hen Lab. I would like to extend my greatest thanks to my my project mentor Jungseock Joo, PhD as well as to Kunwoo Park, PhD, and Danni Chen, each of whom made significant contributions to the project.
+"Understanding Messages to Underrepresented Racial, Ethnic, Gender, and Sexual Groups on Social Media by Democratic Politicians and their Electoral Implications" was contributed by Henry Smith with Red Hen Lab. I would like to extend my greatest thanks to my project mentor Jungseock Joo, PhD as well as to Kunwoo Park, PhD, and Danni Chen, each of whom made significant contributions to the project.
 
 
 #### XIII. Week 10: 
